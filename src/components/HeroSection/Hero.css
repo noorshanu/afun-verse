@@ -1,0 +1,85 @@
+.hero-main{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.hero-h1{
+    font-family: 'Fredoka';
+font-style: normal;
+font-weight: 300;
+font-size: 110px;
+line-height: 113%;
+/* or 141px */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.hero-span{
+    font-weight: 600;
+}
+
+.img1{
+    height: 96px;
+    width: 100px;
+}
+
+.img2{
+    height: 96px;
+    width: 100px;
+}
+.img3{
+    height: 96px;
+    width: 100px;
+}
+.img4{
+    height: 96px;
+    width: 100px;
+}
+.img5{
+    height: 96px;
+    width: 100px;
+}
+.img6{
+    height: 96px;
+    width: 100px;
+}
+.side-img{
+    display: flex;
+    flex-direction: column;
+}
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+.hero-p{
+    font-family: 'Zen Dots';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 113%;
+}
+
+.btn-hero-1{
+    background-image: url(../../assets/btn-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Zen Dots';
+    padding: 21px 51px 58px 68px;
+
+
+}
+
+.btn-hero-2{
+    background-image: url(../../assets/btn-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Zen Dots';
+    padding: 21px 51px 58px 68px;
+
+
+}
+
+.hero-main-btn{
+
+    margin-top: 2%;
+
+}

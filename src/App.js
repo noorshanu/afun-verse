@@ -1,13 +1,14 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Hero from './components/HeroSection/Hero';
+import Navbar from './components/Navbar/Navbar';
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>hiii</h1>
-      </header>
-    </div>
+  <>
+  <Navbar/>
+  <Hero/>
+  </>
   );
 }
 
