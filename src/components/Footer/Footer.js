@@ -37,7 +37,14 @@ function Footer() {
                     <p>Binance Blog</p>
                     <p>Term</p>
                 </div>
-                <div class="col-md-3">Column</div>
+                <div class="col-md-3">
+                    <p>Privacy</p>
+                    <p>Risk Warning</p>
+                    <p>Announcements</p>
+                    <p>News</p>
+                    <p>Notices</p>
+                    <p>Cookie Preferences</p>
+                </div>
                 <div class="col-md-3">Column</div>
             </div>
             <div className='foot-bottom'>
