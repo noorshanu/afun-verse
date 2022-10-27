@@ -1,7 +1,11 @@
 import React from 'react'
 import './Footer.css'
 import Logo from '../../assets/foot-logo.png'
-import {FaTwitter} from 'react-icons/fa'
+import {FaTwitter,
+    FaDiscord,
+    FaInstagram,
+    FaTelegramPlane,
+    FaGithub} from 'react-icons/fa'
 
 function Footer() {
   return (
@@ -15,10 +19,24 @@ function Footer() {
                         <img src={Logo} alt="foot-logo" className='foot-logo'/>
 
                         <p>Conect With The Community</p>
+                        <div className='foot-social'>
                         <a href="/"><FaTwitter/></a>
+                        <a href="/"><FaDiscord/></a>
+                        <a href="/"><FaInstagram/></a>
+                        <a href="/"><FaTelegramPlane/></a>
+                        <a href="/"><FaGithub/></a>
+                        </div>
+                      
                     </div>
                 </div>
-                <div class="col-md-3">Column</div>
+                <div class="col-md-3">
+                    <p>About</p>
+                    <p>Careers</p>
+                    <p>Business Contacts</p>
+                    <p>Community</p>
+                    <p>Binance Blog</p>
+                    <p>Term</p>
+                </div>
                 <div class="col-md-3">Column</div>
                 <div class="col-md-3">Column</div>
             </div>
