@@ -1,0 +1,17 @@
+.Play-win{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.play-p{
+    font-family: 'Zen Dots';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 155%;
+/* or 34px */
+
+text-align: right;
+
+color: #FFFFFF;
+
+}

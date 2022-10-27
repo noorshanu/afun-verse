@@ -1,0 +1,46 @@
+.about{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.about-img{
+    height: 330px;
+    width: 62%;
+}
+
+.header-h1{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 75px;
+line-height: 113%;
+/* identical to box height, or 85px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+padding-top: 2%;
+padding-bottom: 5%;
+}
+.about-p{
+    font-family: 'Zen Dots';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 155%;
+/* or 39px */
+
+
+color: #FFFFFF;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Zen+Dots&display=swap');
+.head-span{
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 75px;
+    line-height: 113%;
+    
+}
