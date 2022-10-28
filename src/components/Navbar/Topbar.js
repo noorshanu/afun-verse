@@ -10,11 +10,19 @@ function Topbar() {
     <section className='top-nav'>
     <div className='container'>
         <div className='top-bar'>
-        <div>
-           <p>Announcements :</p>
+        <div className='anno'>
+           <p>Announcements:</p>
         </div>
         <div className='ticker-wrap'> 
         <div className='ticker'>
+            <div className='ticker__item'>
+            <p>Join the Telegram Channel for latest updates. | New NFTs launch, check out our marketplace. |
+                 We were featured on “The morinign Brew”. </p>
+            </div>
+            <div className='ticker__item'>
+            <p>Join the Telegram Channel for latest updates. | New NFTs launch, check out our marketplace. |
+                 We were featured on “The morinign Brew”. </p>
+            </div>
             <div className='ticker__item'>
             <p>Join the Telegram Channel for latest updates. | New NFTs launch, check out our marketplace. |
                  We were featured on “The morinign Brew”. </p>
