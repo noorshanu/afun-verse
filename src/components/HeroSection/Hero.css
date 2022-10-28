@@ -133,4 +133,5 @@ video {
     margin-top: -21%;
     width: 99%;
     transform: rotate(-4.54deg);
+    filter: brightness(0.8);
 }

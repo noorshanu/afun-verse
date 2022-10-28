@@ -1,8 +1,8 @@
 import React from "react";
 import Toko1 from "../../assets/elements/toko-1.png";
 import Toko2 from "../../assets/elements/toko-2.png";
-import Div from '../../assets/elements/div.png'
-import Pie from '../../assets/pie.svg'
+import Div from "../../assets/elements/div.png";
+import Pie from "../../assets/pie.svg";
 import "./Tokenomic.css";
 
 function Benifit() {
@@ -34,16 +34,14 @@ function Benifit() {
       </div>
       <div class="container">
         <div className="head text-center">
-        <h1 className="header-ben-h2">
-        Allocat <span className="header-ben-span">ion</span>
-              </h1>
-      <img src={Div} alt="" className="divider"/>
+          <h1 className="header-ben-h2">
+            Allocat <span className="header-ben-span">ion</span>
+          </h1>
+          <img src={Div} alt="" className="divider" />
         </div>
-       <div className="allo-img">
-        <img src={Pie} alt="" />
-
-
-       </div>
+        <div className="allo-img">
+          <img src={Pie} alt="" />
+        </div>
       </div>
     </div>
   );
