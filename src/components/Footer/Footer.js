@@ -16,7 +16,7 @@ function Footer() {
             <div class="row justify-content-center align-items-center g-2">
                 <div class="col-md-3">
                     <div className='foot-1'>
-                        <img src={Logo} alt="foot-logo" className='foot-logo'/>
+                        <img src={Logo} alt="foot-logos" className='foot-logo'/>
 
                         <p>Conect With The Community</p>
                         <div className='foot-social'>

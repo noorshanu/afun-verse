@@ -6,12 +6,15 @@ import Side3 from '../../assets/hero/3.png'
 import Side4 from '../../assets/hero/4.png'
 import Side5 from '../../assets/hero/5.png'
 import Side6 from '../../assets/hero/6.png'
+import videoBg from '../../assets/bg.mp4'
 
 
 function Hero() {
   return (
     <section className='hero-main'>
-        <div className='container justify-content-center align-items-center'>
+   <div className="overlay"></div>
+        <video src={videoBg} autoPlay loop muted />
+        <div className='container justify-content-center align-items-center content'>
             <div className='hero-content d-flex justify-content-center align-items-center'>
                 <div className='text-end side-img'>
                     <img src={Side1} alt="1" className='img1'/>
