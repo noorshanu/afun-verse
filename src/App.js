@@ -5,6 +5,7 @@ import PlayWin from './components/Features/PlayWin';
 import Footer from './components/Footer/Footer';
 import Hero from './components/HeroSection/Hero';
 import Navbar from './components/Navbar/Navbar';
+import Topbar from './components/Navbar/Topbar';
 import Benifit from './components/tokenomic/Benifit';
 import Tokenomic from './components/tokenomic/Tokenomic';
 
@@ -12,6 +13,7 @@ import Tokenomic from './components/tokenomic/Tokenomic';
 function App() {
   return (
   <>
+  <Topbar/>
   <Navbar/>
   <Hero/>
   <About/>

@@ -94,7 +94,18 @@ color: #DADADA;
   display: none;
 }
 
-
+/*top nav*/
+.top-nav{
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  align-items: center;
+  justify-content: center;
+}
+.top-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 
 
