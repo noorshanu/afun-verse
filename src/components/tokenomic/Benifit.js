@@ -1,11 +1,13 @@
 import React from 'react'
+import Toko1 from '../../assets/elements/toko-1.png'
+import Toko2 from '../../assets/elements/toko-2.png'
 
 function Benifit() {
   return (
     <div>
-        <div className='container justify-content-center margin-auto'>
+        <div className='container '>
             <div className='row'>
-                <div className='col-lg-8'>
+                <div className='col'>
                 <h1>
                 Benefits of $AFUNC
                 </h1>
@@ -27,7 +29,7 @@ function Benifit() {
         <div className='container'>
             <div className='row'>
                 <div className='col-md-3'>
-
+                    <img src={Toko1} alt=""/>
                 </div>
                 <div className='col-md-6'>
                     <div>
@@ -43,7 +45,7 @@ function Benifit() {
 
                 </div>
                 <div className='col-md-3'>
-
+                <img src={Toko2} alt=""/>
                 </div>
 
             </div>
