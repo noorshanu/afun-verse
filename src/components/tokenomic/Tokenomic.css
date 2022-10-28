@@ -39,3 +39,41 @@ font-size: 25px;
 .afun-toko{
     padding-bottom: 10%;
 }
+.ben-p{
+    font-family: 'Zen Dots';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 190.5%;
+    /* or 48px */
+}
+.toko-side-1{
+    height: fit-content;
+    width: 75%;
+}
+.header-ben-h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 113%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 2%;
+    padding-bottom: 5%;
+
+}
+.header-ben-span{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 113%;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px white;
+}
+.supply{
+    padding-top: 8%;
+    padding-bottom: 3%;
+}

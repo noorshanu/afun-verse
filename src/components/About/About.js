@@ -14,9 +14,8 @@ function About() {
         <div class="container">
             <div class="row justify-content-center align-items-center g-2">
                 <div class="col-md-6">
-                    <p className='about-p'>The core team of AFUN is developing an ecosystem in metaverse
-                         where  you and your friends can have fun ther by meeting, playing,
-                          listeninig music or buying fahionable accesories. </p>
+                    <p className='about-p'>The AFUN verse is an ultimate virtual entertainment world in metaverse where players can meet their friends and play games, listen to music, watch sports, buy arts from gallery, buy fashion accessories, own and ride cars, sail away on a cruise and enjoy nice meals in a luxurious resort hotel.
+Players can also invest and own the room, hotel or land. </p>
                 </div>
                 <div class="col-md-6 text-center">
                     <img src={Box} alt="" className='about-img'/>
