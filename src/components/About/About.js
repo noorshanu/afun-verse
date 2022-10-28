@@ -25,6 +25,7 @@ function About() {
                 
             </div>
         </div>
+        <div className='about-line2'>&nbsp;</div>
     </section>
   )
 }

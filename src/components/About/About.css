@@ -28,7 +28,7 @@ padding-bottom: 5%;
     font-family: 'Zen Dots';
 font-style: normal;
 font-weight: 400;
-font-size: 25px;
+font-size: 28px;
 line-height: 155%;
 /* or 39px */
 
@@ -43,4 +43,14 @@ color: #FFFFFF;
     font-size: 75px;
     line-height: 113%;
     
+}
+
+.about-line{
+    position: absolute;
+    width: 99.3%;
+    height: 400px;
+    transform: rotate(3.37deg);
+    overflow: hidden;
+    z-index: -3;
+    filter: brightness(0.5);
 }
