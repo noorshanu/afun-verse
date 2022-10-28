@@ -17,7 +17,7 @@ function Features() {
     <section className="text-center">
       <div class="container justify-content-center text-center">
         <h1 className="header-h1">
-          Featu<span className="head-span">res</span>{" "}
+          Featu<span className="head-span">res</span>
         </h1>
       </div>
 
