@@ -2,16 +2,83 @@
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.play-p{
+.play-p p{
     font-family: 'Zen Dots';
 font-style: normal;
 font-weight: 400;
 font-size: 22px;
 line-height: 155%;
-/* or 34px */
+padding-bottom: 7%;
 
 text-align: right;
 
 color: #FFFFFF;
 
+}
+.play-img{
+    height: 459px;
+    width: 92%;
+
+}
+.feat-line{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.way-line{
+    position: relative;
+    border: 0;
+    bottom: 0;
+   
+    background: linear-gradient(89.99deg, #993A98 11.97%, #50bbe76e 98.92%);
+    width: 99.87%;
+    height: 59px;
+    z-index: 1;
+    overflow: hidden;
+    transform: matrix(-1, -0.10, -0.08, 1, 0, 0);
+
+}
+
+.way-lines{
+    transform: rotate(-3.05deg);
+    width: 99%;
+    overflow: hidden;
+    position: relative;
+    margin-top: -100px;
+
+}
+
+.side-feat{
+    
+    z-index: -2;
+    background: rgb(0 181 255);
+    filter: blur(135px);
+    width: 188px;
+    height: 183px;
+    position: absolute;
+    left: 0;
+    margin-top: -60px;
+}
+.side-play{
+    position: absolute;
+    right: 0;
+    width: 241px;
+    height: 208px;
+    margin-top: -409px;
+    background: rgb(153 58 152);
+    filter: blur(148px);
+}
+.dollar-line{
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    margin-top: -104px;
+    background: linear-gradient(89.99deg, #993A98 11.97%, #50bbe799 98.92%);
+    transform: matrix(-0.99, 0.10, 0.00001, 0.99, 0, 0);
+}
+.dollar-lines{
+    transform: rotate(2.03deg);
+    width: 99.8%;
+}
+.dollar-win{
+    padding-top: 8%;
 }

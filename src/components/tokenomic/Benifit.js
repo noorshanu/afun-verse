@@ -4,7 +4,8 @@ function Benifit() {
   return (
     <div>
         <div className='container justify-content-center margin-auto'>
-            <div>
+            <div className='row'>
+                <div className='col-lg-8'>
                 <h1>
                 Benefits of $AFUNC
                 </h1>
@@ -16,6 +17,8 @@ function Benifit() {
                 <p>
 • Invitation to exclusive events (music concert etc)</p>
 <p>• Early access to buy tickets, NFT items etc</p>
+                </div>
+      
             </div>
 
 

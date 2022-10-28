@@ -10,7 +10,7 @@ function Tokenomic() {
         
     </div>
     <div class="container">
-        <div class="row justify-content-center align-items-center g-2">
+        <div class="row justify-content-center align-items-center g-2 afun-toko">
             <div class="col-md-6">
                 <div>
                     <img src={Box} alt="" className='img-toko'/>
@@ -18,8 +18,8 @@ function Tokenomic() {
             </div>
             <div class="col-md-6">
                 <div>
-                    <h2>$Afunc</h2>
-                    <p>AFUNC token is native token for Metaverse entertainment Ecosystem. Its long term project which 
+                    <h2 className='toko-h2'>$Ac<span className='head-span'>fun</span>c</h2>
+                    <p className='toko-p'><span className='span-toko'>AFUNC</span> token is native token for Metaverse entertainment Ecosystem. Its long term project which 
                         will include 5 main staged of development:</p>                    
                 </div>
             </div>

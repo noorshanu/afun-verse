@@ -35,13 +35,15 @@ line-height: 155%;
 
 color: #FFFFFF;
 }
-@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
 .head-span{
-    font-family: 'Jacques Francois Shadow', cursive;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 75px;
     line-height: 113%;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px white;
     
 }
 

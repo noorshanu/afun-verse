@@ -1,10 +1,41 @@
 .token{
-    padding-top: 5%;
+
     padding-bottom: 5%;
 }
 
 
 .img-toko{
-    height: 150px;
-    width: 62%;
+    height: 236px;
+    width: 60%;
+}
+
+.toko-h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 75px;
+line-height: 113%;
+/* identical to box height, or 85px */
+
+letter-spacing: 0.095em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+.toko-p{
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 133.5%;
+}
+.span-toko{
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+}
+.afun-toko{
+    padding-bottom: 10%;
 }

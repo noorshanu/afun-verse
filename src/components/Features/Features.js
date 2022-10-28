@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import Way from '../../assets/elements/way.svg'
+import './Play.css'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -45,9 +46,12 @@ function Features() {
       </Swiper>
         </div>
 
-        <div>
-        <div className='left-line'>&nbsp;</div>
-          <img src={Way} alt="way" className="way-line"/>
+        <div className="feat-line">
+          <div className="side-feat">
+          &nbsp;
+          </div>
+        <div className='way-line'>&nbsp;</div>
+          <img src={Way} alt="way" className="way-lines"/>
         </div>
     </section>
   )
