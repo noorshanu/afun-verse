@@ -74,6 +74,32 @@ font-size: 25px;
     -webkit-text-stroke: 1px white;
 }
 .supply{
-    padding-top: 8%;
+    
     padding-bottom: 3%;
+}
+
+.header-ben-h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 113%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 5%;
+   
+
+}
+.divider{
+    width: 23%;
+    height: 4px;
+}
+.allo-img img{
+width: 70%;
+}
+.allo-img{
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 2%;
 }
