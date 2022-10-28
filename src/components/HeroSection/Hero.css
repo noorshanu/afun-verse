@@ -94,7 +94,7 @@ video {
     top: 18%;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 102vh;
     background-color: rgba(0,0,0,.4);
     /* background-color: #000000cc; */
   }
@@ -113,6 +113,24 @@ video {
     color: white;
   }
 
-  .main {
-   
-  }
+.left-line{
+    position: absolute;
+    border: 0;
+    bottom: 0;
+    top: 98%;
+    background: linear-gradient(89.99deg, #993A98 11.97%, #50bbe76e 98.92%);
+    width: 99.87%;
+    height: 59px;
+    z-index: 1;
+    overflow: hidden;
+    transform: matrix(-1, -0.10, -0.08, 1, 0, 0);
+
+}
+
+.home-line{
+    position: relative;
+    z-index: 0;
+    margin-top: -21%;
+    width: 99%;
+    transform: rotate(-4.54deg);
+}

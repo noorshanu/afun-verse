@@ -6,6 +6,8 @@ import Side3 from '../../assets/hero/3.png'
 import Side4 from '../../assets/hero/4.png'
 import Side5 from '../../assets/hero/5.png'
 import Side6 from '../../assets/hero/6.png'
+
+import HomeLine from '../../assets/elements/home-line.png'
 import videoBg from '../../assets/bg.mp4'
 
 
@@ -39,6 +41,8 @@ function Hero() {
             </div>
 
         </div>
+        <div className='left-line'>&nbsp;</div>
+<img src={HomeLine} alt="" className='home-line'/>
     </section>
   )
 }

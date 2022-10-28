@@ -1,11 +1,12 @@
 import React from 'react'
 import Box from '../../assets/box.png'
-// import Line from '../../assets/line-about.png'
+import AboutLine from '../../assets/elements/about-line.png'
 import './About.css'
 
 function About() {
   return (
     <section className='about'>
+        <img src={AboutLine} alt="" className='about-line'/>
         <div class="container justify-content-center text-center">
             <h1 className='header-h1'>About <span className='head-span'>Us</span> </h1>
         </div>
