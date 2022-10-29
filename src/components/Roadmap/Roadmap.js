@@ -1,6 +1,7 @@
 import React from "react";
 import "./Roadmap.css";
 import RoadLine from "../../assets/elements/road-line.svg";
+import Cir from '../../assets/circle.png'
 
 function Roadmap() {
   return (
@@ -20,20 +21,25 @@ function Roadmap() {
               </div>
               <div className="road-content">
                 <div className="road-sub-head">
-                  <h1 className="header-h1">
-                    Phase <span className="head-span"> 1</span>
+                  <h1 className="header-road-h1">
+                    Phase <span className="header-road-span"> 1</span>
                   </h1>
                   <p>November 22’</p>
+                  </div>
                   <div className="road-p">
                     <p>Private Sale</p>
                     <p>Development</p>
                     <p>Discount: 80%</p>
                   </div>
-                </div>
+              
               </div>
             </div>
           </div>
-          <div className="col-md-6"></div>
+          <div className="col-md-6">
+            <div className="road-img-2">
+              <img src={Cir} alt=""/>
+            </div>
+          </div>
         </div>
       </div>
     </section>

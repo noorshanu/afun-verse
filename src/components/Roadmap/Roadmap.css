@@ -2,3 +2,60 @@
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
+.road-img-2 img{
+    height: 150px;
+    width: 200px;
+}
+.road-box{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.header-road-h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 113%;
+/* identical to box height, or 85px */
+
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+.header-road-span{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 113%;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px white;
+}
+.road-sub-head p{
+font-family: 'Zen Dots';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 0%;
+/* or 28px */
+
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: rgb(0, 0, 0);
+-webkit-text-stroke: 1px white;
+}
+.road-p p{
+    font-family: 'Zen Dots';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 173%;
+}
+.road-p{
+    padding-left: 26%;
+}
+.road-img-line{
+    height: 84%;
+    margin-top: 100%;
+}
