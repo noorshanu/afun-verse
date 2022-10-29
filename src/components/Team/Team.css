@@ -1,0 +1,28 @@
+.team{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.team-img-box img{
+    height: auto;
+    width: 74%;
+}
+.team-mg-box img{
+    height: auto;
+    width: 83%;
+}
+
+.team-text h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 111%;
+}
+.team-text p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 111%;
+}
