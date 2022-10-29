@@ -4,8 +4,9 @@
 }
 
 .road-img-2 img{
-    height: 150px;
-    width: 200px;
+    height: auto;
+    width: 51%;
+    margin-top: 1%;
 }
 .road-box{
     display: flex;
@@ -49,13 +50,15 @@ color: rgb(0, 0, 0);
     font-family: 'Zen Dots';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 26px;
 line-height: 173%;
 }
 .road-p{
-    padding-left: 26%;
+    padding-left: 8%;
+    margin-top: 29px;
+    position: absolute;
 }
-.road-img-line{
+.road-img-line img{
     height: 84%;
     margin-top: 100%;
 }
