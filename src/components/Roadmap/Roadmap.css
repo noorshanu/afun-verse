@@ -1,67 +1,67 @@
-.roadmap{
-    padding-top: 5%;
-    padding-bottom: 5%;
+.roadmap {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-.road-img-2 img{
-    height: auto;
-    width: 51%;
-    margin-top: 1%;
+.road-img-2 img {
+  height: auto;
+  width: 51%;
+  margin-top: 1%;
 }
-.road-img-2{
-    text-align: center;
+.road-img-2 {
+  text-align: center;
 }
-.road-box{
-    display: flex;
-    gap: 3.5rem;
-    justify-content: center;
+.road-box {
+  display: flex;
+  gap: 3.5rem;
+  justify-content: center;
 }
-.header-road-h1{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-font-weight: 700;
-font-size: 70px;
-line-height: 113%;
-/* identical to box height, or 85px */
+.header-road-h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 113%;
+  /* identical to box height, or 85px */
 
-letter-spacing: -0.02em;
-text-transform: uppercase;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
 }
-.header-road-span{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 113%;
-    color: rgb(0, 0, 0);
-    -webkit-text-stroke: 1px white;
+.header-road-span {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 113%;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px white;
 }
-.road-sub-head p{
-font-family: 'Zen Dots';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 0%;
-/* or 28px */
+.road-sub-head p {
+  font-family: "Zen Dots";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0%;
+  /* or 28px */
 
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: rgb(0, 0, 0);
--webkit-text-stroke: 1px white;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px white;
 }
-.road-p p{
-    font-family: 'Zen Dots';
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 173%;
+.road-p p {
+  font-family: "Zen Dots";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 173%;
 }
-.road-p{
-    padding-left: 8%;
-    margin-top: 29px;
-    position: absolute;
+.road-p {
+  padding-left: 8%;
+  margin-top: 29px;
+  position: absolute;
 }
-.road-img-line img{
-    height: 84%;
-    margin-top: 100%;
+.road-img-line img {
+  height: 84%;
+  margin-top: 100%;
 }
