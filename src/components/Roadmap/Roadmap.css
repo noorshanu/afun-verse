@@ -8,6 +8,9 @@
     width: 51%;
     margin-top: 1%;
 }
+.road-img-2{
+    text-align: center;
+}
 .road-box{
     display: flex;
     gap: 2rem;
