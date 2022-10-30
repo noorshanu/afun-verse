@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import Div from "../../assets/elements/div.png"
 import Logo from "../../assets/foot-logo.png";
 import {
   FaTwitter,
@@ -14,13 +15,15 @@ function Footer() {
     <>
       <footer className="footer">
         <div class="container">
-          <hr />
+          <div className="text-center div1">
+            <img src={Div} alt="" className="foot-div"/>
+          </div>
           <div class="row justify-content-center align-items-center g-2">
             <div class="col-md-3">
               <div className="foot-1">
-                <img src={Logo} alt="foot-logos" className="foot-logo" />
+                <img src={Logo} alt="foot-logos" className="foots-logo" />
 
-                <p>Conect With The Community</p>
+                <p className="connect">Connect With The Community</p>
                 <div className="foot-social">
                   <a href="/">
                     <FaTwitter />
@@ -40,21 +43,26 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 ">
+              <div className="foot-link">
               <p>About</p>
               <p>Careers</p>
               <p>Business Contacts</p>
               <p>Community</p>
               <p>Binance Blog</p>
               <p>Term</p>
+              </div>
+            
             </div>
             <div class="col-md-3">
+            <div className="foot-link">
               <p>Privacy</p>
               <p>Risk Warning</p>
               <p>Announcements</p>
               <p>News</p>
               <p>Notices</p>
               <p>Cookie Preferences</p>
+              </div>
             </div>
             <div class="col-md-3">Column</div>
           </div>

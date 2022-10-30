@@ -26,3 +26,17 @@ font-weight: 600;
 font-size: 20px;
 line-height: 111%;
 }
+
+.team-lines{
+    transform: rotate(-5.07deg);
+    width: 99%;
+    margin-top: -83px;
+  
+}
+
+.team-line{
+    width: 99.9%;
+    height: 51px;
+    background: linear-gradient(89.99deg, #993A98 11.97%, #50BBE7 98.92%);
+    transform: matrix(-1, -0.07, -0.07, 1, 0, 0);
+}

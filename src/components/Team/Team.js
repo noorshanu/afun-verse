@@ -11,9 +11,9 @@ function Team() {
     <section className='team'>
         <div className="dollar-win">
         
-        
-        <img src={Dollar} alt="way" className="dollar-lines"/>
-        <div className='dollar-line'>&nbsp;</div>
+        <div className='team-line'>&nbsp;</div>
+        <img src={Dollar} alt="way" className="team-lines"/>
+       
       </div>
        <div class="container justify-content-center text-center">
         <h1 className="header-h1">
