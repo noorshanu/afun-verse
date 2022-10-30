@@ -11,7 +11,7 @@ function Benifit() {
     <div>
       <div className="container supply">
         <div className="row">
-          <div className="col-md-3  text-center">
+          <div className="col-md-3  text-end">
             <img src={Toko1} alt="" className="toko-side-1" />
           </div>
           <div className="col-md-6 ">
@@ -29,7 +29,7 @@ function Benifit() {
             
             </div>
           </div>
-          <div className="col-md-3 text-center ">
+          <div className="col-md-3 text-start ">
             <img src={Toko2} alt="" className="toko-side-1" />
           </div>
         </div>
