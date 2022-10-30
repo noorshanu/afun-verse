@@ -1,6 +1,6 @@
 import React from "react";
 import "./Tokenomic.css";
-import Box from "../../assets/box.png";
+import Box from "../../assets/coin.png";
 
 function Tokenomic() {
   return (
@@ -13,7 +13,7 @@ function Tokenomic() {
       <div class="container">
         <div class="row justify-content-center align-items-center g-2 afun-toko">
           <div class="col-md-6">
-            <div>
+            <div className="text-center">
               <img src={Box} alt="" className="img-toko" />
             </div>
           </div>

@@ -4,10 +4,17 @@ import Team1 from '../../assets/team/team-1.png'
 import Team2 from '../../assets/team/team-2.png'
 import Team3 from '../../assets/team/team-3.png'
 import Team4 from '../../assets/team/team-4.png'
+import Dollar from '../../assets/elements/team2.png'
 
 function Team() {
   return (
     <section className='team'>
+        <div className="dollar-win">
+        
+        
+        <img src={Dollar} alt="way" className="dollar-lines"/>
+        <div className='dollar-line'>&nbsp;</div>
+      </div>
        <div class="container justify-content-center text-center">
         <h1 className="header-h1">
           TE<span className="head-span">AM</span>

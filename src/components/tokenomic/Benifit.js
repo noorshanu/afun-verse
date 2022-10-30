@@ -4,6 +4,7 @@ import Toko2 from "../../assets/elements/toko-2.png";
 import Div from "../../assets/elements/div.png";
 import Pie from "../../assets/pie.svg";
 import "./Tokenomic.css";
+import Dollar from '../../assets/elements/alloc.png'
 
 function Benifit() {
   return (
@@ -32,6 +33,12 @@ function Benifit() {
           </div>
         </div>
       </div>
+      <div className="dollar-win">
+        
+        
+          <img src={Dollar} alt="way" className="dollar-lines"/>
+          <div className='dollar-line'>&nbsp;</div>
+        </div>
       <div class="container">
         <div className="head text-center">
           <h1 className="header-ben-h2">
