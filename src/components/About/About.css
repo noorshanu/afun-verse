@@ -1,6 +1,6 @@
 .about{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .about-img{
@@ -28,8 +28,9 @@ padding-bottom: 5%;
     font-family: 'Poppins';
     font-style: normal;
 font-weight: 400;
-font-size: 25px;
+font-size: 24px;
 line-height: 155%;
+text-align: justify;
 /* or 39px */
 
 
@@ -55,4 +56,19 @@ color: #FFFFFF;
     overflow: hidden;
     z-index: -3;
     filter: brightness(0.5);
+}
+
+@media (max-width:768px){
+    .header-h1{
+        font-size: 48px;
+    }
+    .head-span{
+        font-size: 48px;
+    }
+    .about-p {
+       
+        font-size: 14px;
+       
+    }
+
 }

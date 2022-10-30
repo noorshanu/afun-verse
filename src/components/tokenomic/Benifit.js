@@ -26,9 +26,7 @@ function Benifit() {
             <p>• Token Standard: ERC20</p>
             <p>• Total Supply: 1,000,000,000</p>
               <p>• Public Sale Date: December 2023</p>
-              <p>• Token Price: $1</p>
-              <p>• Locked for 9-12 months</p>
-              <p>• Lock-up mechanism: monthly %</p>
+            
             </div>
           </div>
           <div className="col-md-3 text-center">

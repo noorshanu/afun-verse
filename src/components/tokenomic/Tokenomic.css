@@ -42,12 +42,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 190.5%;
+  line-height: 89.5%;
   /* or 48px */
 }
 .toko-side-1 {
   height: fit-content;
-  width: 75%;
+  width: 45%;
 }
 .header-ben-h1 {
   font-family: "Poppins", sans-serif;
