@@ -13,7 +13,7 @@ li {
     width: 118px;
 }
 a:hover {
-  color: #25ac10;
+  color: #3ba1db;
 }
 .logo{
   align-items: center;
@@ -84,7 +84,7 @@ color: #DADADA;
 }
 .menu-link ul li:hover > a {
   transform-origin: left;
-  color: rgb(19, 221, 36);
+  color: #3ba1db;
   text-decoration: wavy;
   transition: 0.5s;
 }
@@ -225,16 +225,20 @@ color: #6C6C6C;
   }
 
   .mobile-menu-link {
-    background-color: #0c1717;
-    height: 20rem;
-    display: grid;
-    grid-column: 2/5;
-    align-items: center;
-    padding-left: 3rem;
-    transition: all 2s linear;
-    transform-origin: top;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      background-color: #0c1717;
+      height: 23rem;
+      display: flex;
+      width: 100%;
+      padding-top: 4.5%;
+      /* width: -webkit-fill-available; */
+      flex-direction: column;
+      align-items: center;
+      /* padding-left: 3rem; */
+      transition: all 2s linear;
+      margin-top: 74px;
+      margin-right: -50px;
+      transform-origin: bottom;
+      box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
   }
 
   .mobile-menu-link ul {
@@ -260,10 +264,24 @@ color: #6C6C6C;
 }
 
 @media (max-width: 798px) {
+
+  /*top bar*/
+  .anno p{
+    font-size: 10px;
+  }
+  .ticker-wrap .ticker__item{
+    font-size: 10px;
+  }
+
+  .top-social {
+    
+    gap: 0.4rem;}
   .main-nav {
     height: 5rem;
     grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
   }
+
+
 
  
 
@@ -277,8 +295,9 @@ color: #6C6C6C;
 
 @media (max-width: 520px) {
   .main-nav {
-    height: 5rem;
-    grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
  
