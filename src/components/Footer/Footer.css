@@ -12,8 +12,16 @@
 }
 
 .foot-bottom{
+    padding-top: 3%;
     text-align: center;
     align-items: center;
+}
+.foot-bottom hr{
+    width: 80%;
+    margin: auto;
+    height: 10px;
+
+padding-bottom: 1%;
 }
 .foot-bottom span{
     font-family: 'Poppins';
@@ -30,7 +38,7 @@ color: #6C6C6C;
 }
 
 .foot-div{
-    height: 5px;
+    height: 2px;
     width: 78%;
 }
 .div1{
