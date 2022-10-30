@@ -9,7 +9,7 @@ function About() {
       <img src={AboutLine} alt="" className="about-line" />
       <div class="container justify-content-center text-center">
         <h1 className="header-h1">
-          About <span className="head-span">Us</span>{" "}
+          About <span className="head-span">Us</span>
         </h1>
       </div>
 

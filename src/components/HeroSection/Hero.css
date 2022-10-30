@@ -7,9 +7,8 @@
     font-family: 'Fredoka';
 font-style: normal;
 font-weight: 300;
-font-size: 110px;
+font-size: 85px;
 line-height: 113%;
-/* or 141px */
 
 text-transform: uppercase;
 
@@ -20,31 +19,7 @@ color: #FFFFFF;
     font-weight: 600;
 }
 
-.img1{
-    height: 96px;
-    width: 100px;
-}
 
-.img2{
-    height: 96px;
-    width: 100px;
-}
-.img3{
-    height: 96px;
-    width: 100px;
-}
-.img4{
-    height: 96px;
-    width: 100px;
-}
-.img5{
-    height: 96px;
-    width: 100px;
-}
-.img6{
-    height: 96px;
-    width: 100px;
-}
 .side-img{
     display: flex;
     flex-direction: column;
@@ -56,6 +31,8 @@ font-style: normal;
 font-weight: 400;
 font-size: 25px;
 line-height: 113%;
+padding-top: 4%;
+padding-bottom: 5%;
 }
 
 .btn-hero-1{
@@ -63,7 +40,7 @@ line-height: 113%;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Zen Dots';
-    padding: 21px 51px 58px 68px;
+    padding: 21px 55px 58px 68px;
 
 
 }
@@ -73,14 +50,14 @@ line-height: 113%;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Zen Dots';
-    padding: 21px 51px 58px 68px;
+    padding: 21px 51px 58px 117px;
 
 
 }
 
 .hero-main-btn{
 
-    margin-top: 2%;
+    margin-top: 4%;
 
 }
 

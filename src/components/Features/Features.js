@@ -9,6 +9,7 @@ import Music from "../../assets/slider/music.png";
 import Sports from '../../assets/slider/art.png'
 import Rest from '../../assets/slider/resturants.png'
 import Tam from '../../assets/slider/tam.png'
+import Dollar from '../../assets/elements/dollar.svg'
 
 
 import "./Play.css";
@@ -26,12 +27,19 @@ import { EffectFade, Navigation, Pagination } from "swiper";
 function Features() {
   return (
     <section className="text-center">
+       <div className="feat-line">
+        <div className="side-feat">&nbsp;</div>
+        <div className="way-line">&nbsp;</div>
+        <img src={Way} alt="way" className="way-lines" />
+      </div>
       <div class="container justify-content-center text-center">
         <h1 className="header-h1">
           Featu<span className="head-span">res</span>
         </h1>
       </div>
-
+<div className="side-pur">
+  &nbsp;
+</div>
       <div className="slider-main">
         <Swiper
           spaceBetween={30}
@@ -129,11 +137,14 @@ to purchase baby or pets foods with native tokens . </h1>
         </Swiper>
       </div>
 
-      <div className="feat-line">
-        <div className="side-feat">&nbsp;</div>
-        <div className="way-line">&nbsp;</div>
-        <img src={Way} alt="way" className="way-lines" />
-      </div>
+      <div className="dollar-win">
+          <div className="side-feat">
+          &nbsp;
+          </div>
+        
+          <img src={Dollar} alt="way" className="dollar-lines"/>
+          <div className='dollar-line'>&nbsp;</div>
+        </div>
     </section>
   );
 }

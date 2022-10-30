@@ -119,3 +119,13 @@ color: #FFFFFF;
     font-size: 30px;
     padding: 9%;
   }
+
+  .side-pur{
+    width: 204px;
+    height: 150px;
+    background: rgb(203 21 201);
+    filter: blur(128px);
+    position: absolute;
+    right: 0;
+    margin-top: -158px;
+  }
