@@ -36,7 +36,8 @@ function Benifit() {
         </div>
       </div>
       <div className="dollar-win">
-        
+      <div className='dollar-shade-1'>&nbsp;</div>
+      <div className='dollar-shade-2'>&nbsp;</div>
         
           <img src={Dollar} alt="way" className="dollar-lines"/>
           <div className='dollar-line'>&nbsp;</div>

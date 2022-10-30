@@ -100,6 +100,34 @@
   padding-bottom: 2%;
 }
 
+.dollar-shade-2{
+  width: 260px;
+  height: 151px;
+  background: rgba(203, 21, 200, 0.779);
+  filter: blur(176px);
+  position: absolute;
+  right: 0;
+  
+  margin-top: -11px;
+
+}
+
+
+.dollar-shade-1{
+  width: 260px;
+  height: 151px;
+  background: rgb(0 181 255);
+  filter: blur(176px);
+  position: absolute;
+  left: 0;
+  
+  margin-top: -11px;
+
+}
+
+
+
+
 @media (max-width:768px){
   .toko-h2{
     font-size: 32px;

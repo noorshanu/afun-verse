@@ -20,7 +20,7 @@ function Roadmap() {
         <div className="side-road">&nbsp;</div>
         <div className="side-road2">&nbsp;</div>
         <div className="row margin-auto ">
-          <div className="col-md-6"  data-aos="fade-left">
+          <div className="col-md-6"   data-aos="fade-right">
             <div className="team-box-1">
               <div>
                 <div>
@@ -44,7 +44,7 @@ function Roadmap() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6"  data-aos="fade-left">
             <div className="team-box-1">
               <img src={Pas1} alt="" />
               <div className="d-flex align-items-center gap-2">
