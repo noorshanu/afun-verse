@@ -34,8 +34,8 @@
 .side-road{
   width: 403px;
   height: 516px;
-  background: rgb(203 21 201);
-  filter: blur(176px);
+  background: rgba(203, 21, 200, 0.779);
+  filter: blur(260px);
   position: absolute;
   right: 262px;
   /* margin-top: -158px; */
