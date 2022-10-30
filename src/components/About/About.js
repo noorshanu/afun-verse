@@ -18,7 +18,7 @@ function About() {
 
       <div class="container">
         <div class="row justify-content-center align-items-center g-2">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
             <p className="about-p">
               The AFUN verse is an ultimate virtual entertainment world in
               metaverse where players can meet their friends and play games,
@@ -28,7 +28,7 @@ function About() {
               and own the room, hotel or land.{" "}
             </p>
           </div>
-          <div class="col-md-6 text-center">
+          <div class="col-md-6 text-center" data-aos="fade-left" data-aos-duration="2000">
         
        <img src={animationData} alt="" className="about-img"/>
           </div>

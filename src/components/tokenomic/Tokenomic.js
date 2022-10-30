@@ -5,7 +5,8 @@ import Box from "../../assets/coin.png";
 function Tokenomic() {
   return (
     <section className="token">
-      <div className="container text-center justify-content-center">
+      <div className="container text-center justify-content-center" data-aos="fade-up"
+     data-aos-anchor-placement="center-center" data-aos-duration="1500">
         <h1 className="header-h1">
           Token<span className="head-span">omics</span>{" "}
         </h1>

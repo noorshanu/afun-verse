@@ -6,7 +6,8 @@ import Cir from '../../assets/circle.png'
 function Roadmap() {
   return (
     <section className="roadmap">
-      <div class="container justify-content-center text-center">
+      <div class="container justify-content-center text-center" data-aos="fade-up"
+     data-aos-anchor-placement="center-center" data-aos-duration="1500">
         <h1 className="header-h1">
           Road<span className="head-span">Map</span>
         </h1>
@@ -15,103 +16,16 @@ function Roadmap() {
       <div className="container">
         <div className="row ">
           <div className="col-md-6">
-            <div className="road-box">
-              <div className="road-img-line">
-                <img src={RoadLine} alt="" />
-              </div>
-              <div className="road-content">
-                <div className="road-sub-head">
-                  <h1 className="header-road-h1">
-                    Phase <span className="header-road-span"> 1</span>
-                  </h1>
-                  <p>November 22’</p>
-                  </div>
-                  <div className="road-p">
-                    <p>Private Sale</p>
-                    <p>Development</p>
-                    <p>Discount: 80%</p>
-                  </div>
-              
-              </div>
-            </div>
+            
           </div>
           <div className="col-md-6">
-            <div className="road-img-2">
-              <img src={Cir} alt=""/>
-            </div>
+            
           </div>
+         
         </div>
       </div>
 
-      <div className="phase-2">
-      <div className="container">
-        <div className="row ">
-          <div className="col-md-6">
-            <div className="road-box">
-              <div className="road-img-line">
-                <img src={RoadLine} alt="" />
-              </div>
-              <div className="road-content">
-                <div className="road-sub-head">
-                  <h1 className="header-road-h1">
-                    Phase <span className="header-road-span"> 2</span>
-                  </h1>
-                  <p>May 23’</p>
-                  </div>
-                  <div className="road-p">
-
-
-                    <p>Whitelist</p>
-                    <p>Ready MVP</p>
-                    <p>Discount: 50%</p>
-                  </div>
-              
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6">
-            <div className="road-img-2">
-              <img src={Cir} alt=""/>
-            </div>
-          </div>
-        </div>
-      </div>
-        
-      </div>
-      <div className="phase-3">
-      <div className="container">
-        <div className="row ">
-          <div className="col-md-6">
-            <div className="road-box">
-              <div className="road-img-line">
-                <img src={RoadLine} alt="" />
-              </div>
-              <div className="road-content">
-                <div className="road-sub-head">
-                  <h1 className="header-road-h1">
-                    Phase <span className="header-road-span"> 3</span>
-                  </h1>
-                  <p>December 23’</p>
-                  </div>
-                  <div className="road-p">
-
-                    <p>Public Sale</p>
-                    <p>Full Launch</p>
-          
-                  </div>
-              
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6">
-            <div className="road-img-2">
-              <img src={Cir} alt=""/>
-            </div>
-          </div>
-        </div>
-      </div>
-        
-      </div>
+ 
     </section>
   );
 }
