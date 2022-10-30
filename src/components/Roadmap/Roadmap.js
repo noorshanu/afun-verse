@@ -1,7 +1,7 @@
 import React from "react";
 import "./Roadmap.css";
-import RoadLine from "../../assets/elements/road-line.svg";
-import Cir from '../../assets/circle.png'
+import Pas1 from '../../assets/p1.png'
+
 
 function Roadmap() {
   return (
@@ -14,11 +14,67 @@ function Roadmap() {
       </div>
 
       <div className="container">
-        <div className="row ">
+      <div className="side-road">
+          &nbsp;
+          </div>
+          <div className="side-road2">
+          &nbsp;
+          </div>
+        <div className="row margin-auto ">
           <div className="col-md-6">
+            <div className="team-box-1">
+              <div>
+                <div>
+                <img src={Pas1} alt=""/>
+              <div className="d-flex align-items-center gap-2">
+                <h2>Q1 </h2>
+                <span>2023</span>
+              </div>
+              <p>presale Afun Token </p>
+             <p> NFT launch </p>
+<p>Listing on CMC & CG </p>
+<p>Conceptualization staking <br/> platform and token</p>
+<p>Wallet + smart contract <br/> implementation in game</p>
+<p>Game(Demo version) release</p>
+<p>Creating market place Afun</p>
+                </div>
+              </div>
+              
+              
+            </div>
             
           </div>
           <div className="col-md-6">
+          <div className="team-box-1">
+              <img src={Pas1} alt=""/>
+              <div className="d-flex align-items-center gap-2">
+                <h2>Q1 </h2>
+                <span>2023</span>
+              </div>
+              <p>presale Afun Token 
+NFT launch 
+Listing on CMC & CG 
+Conceptualization staking platform and token
+Wallet + smart contract implementation in game
+Game(Demo version) release
+Creating market place Afun</p>
+              
+            </div>
+            <div className="team-box-1">
+              <img src={Pas1} alt=""/>
+              <div className="d-flex align-items-center gap-2">
+                <h2>Q1 </h2>
+                <span>2023</span>
+              </div>
+              <p>presale Afun Token 
+NFT launch 
+Listing on CMC & CG 
+Conceptualization staking platform and token
+Wallet + smart contract implementation in game
+Game(Demo version) release
+Creating market place Afun</p>
+              
+            </div>
             
           </div>
          
