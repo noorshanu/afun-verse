@@ -1,6 +1,6 @@
 .team{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .team-img-box img{
@@ -16,14 +16,14 @@
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 800;
-font-size: 22px;
+font-size: 18px;
 line-height: 111%;
 }
 .team-text p{
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 20px;
+font-size: 16px;
 line-height: 111%;
 }
 
@@ -39,4 +39,22 @@ line-height: 111%;
     height: 51px;
     background: linear-gradient(89.99deg, #993A98 11.97%, #50BBE7 98.92%);
     transform: matrix(-1, -0.07, -0.07, 1, 0, 0);
+}
+
+@media (max-width:768px) {
+    .team-text h2{
+        font-size: 12px;
+    }
+    .team-text p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 111%;
+    }
+
+    .foot-link{
+        text-align: center;
+    }
+    
 }

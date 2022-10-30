@@ -11,10 +11,10 @@ function Benifit() {
     <div>
       <div className="container supply">
         <div className="row">
-          <div className="col-md-3 text-center">
+          <div className="col-md-3  text-center">
             <img src={Toko1} alt="" className="toko-side-1" />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 ">
             <div className="container text-center justify-content-center">
               <h1 className="header-ben-h1">
                 Token <span className="header-ben-span">Supply</span>
@@ -29,7 +29,7 @@ function Benifit() {
             
             </div>
           </div>
-          <div className="col-md-3 text-center">
+          <div className="col-md-3 text-center ">
             <img src={Toko2} alt="" className="toko-side-1" />
           </div>
         </div>

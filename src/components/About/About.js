@@ -1,19 +1,11 @@
 import React from "react";
 
 import AboutLine from "../../assets/elements/about-line.png";
-import Lottie from 'react-lottie';
-import animationData from '../../assets/game.json';
+import animationData from '../../assets/club.png';
 import "./About.css";
 
 function About() {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
+
   return (
     <section className="about">
       <img src={AboutLine} alt="" className="about-line" />
@@ -37,11 +29,7 @@ function About() {
           </div>
           <div class="col-md-6 text-center">
         
-            <Lottie 
-	    options={defaultOptions}
-        height={400}
-        width={400}
-      />
+       <img src={animationData} alt="" className="about-img"/>
           </div>
         </div>
       </div>

@@ -101,7 +101,7 @@ color: #FFFFFF;
   .contents{
   
     align-items: center;
-    /* background: #0000000f; */
+    background: #0000000f;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -128,4 +128,28 @@ color: #FFFFFF;
     position: absolute;
     right: 0;
     margin-top: -158px;
+  }
+
+  @media (max-width:768px){
+    .way-line{
+        height: 22px;
+    }
+
+    .way-lines {
+        transform: rotate(-6.05deg);
+       
+        margin-top: -61px;
+    }
+
+    .contents {
+        background: #0000000f;
+        color: #fff; 
+        top: 22px;
+        width: 100%;
+    }
+
+    .contents h1{
+        font-size: 15px;
+        padding: 5%;
+    }
   }
