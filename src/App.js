@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./components/About/About";
 import Features from "./components/Features/Features";
@@ -11,7 +13,16 @@ import Benifit from "./components/tokenomic/Benifit";
 import Tokenomic from "./components/tokenomic/Tokenomic";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("spinner");
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setLoading(false);
+    }, 4000);
+  }
   return (
+    !loading && (
     <>
       <Topbar />
       <Navbar />
@@ -24,6 +35,7 @@ function App() {
       <Team/>
       <Footer />
     </>
+    )
   );
 }
 
