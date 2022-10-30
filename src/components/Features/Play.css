@@ -100,18 +100,18 @@ color: #FFFFFF;
   
   .contents{
   
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background: #0000000f;
+    align-items: center;
+    /* background: #0000000f; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 92px;
+    width: 100%;
 
   }
   .contents h1{

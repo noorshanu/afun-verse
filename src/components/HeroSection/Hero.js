@@ -14,7 +14,7 @@ function Hero() {
           <div className="text-end side-img"></div>
           <div className="text-center">
             <h1 className="hero-h1">
-              Have <span className="hero-span">AFUN</span> To All
+              Next Generation Gaming experience in Metaverse.
             </h1>
             <p className="hero-p">Play-2-earn</p>
             <div className="hero-main-btn">
