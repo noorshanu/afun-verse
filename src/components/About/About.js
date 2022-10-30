@@ -9,7 +9,8 @@ function About() {
   return (
     <section className="about">
       <img src={AboutLine} alt="" className="about-line" />
-      <div class="container justify-content-center text-center">
+      <div class="container justify-content-center text-center "data-aos="fade-up"
+     data-aos-anchor-placement="center-center" data-aos-duration="1500">
         <h1 className="header-h1">
           About <span className="head-span">Us</span>
         </h1>
