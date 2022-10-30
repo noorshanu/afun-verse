@@ -7,7 +7,7 @@
     font-family: 'Fredoka';
     font-style: normal;
     font-weight: 500;
-    font-size: 63px;
+    font-size: 52px;
     line-height: 113%;
 
 text-transform: uppercase;
@@ -97,7 +97,7 @@ video {
     top: 98%;
     background: linear-gradient(89.99deg, #993A98 11.97%, #50bbe76e 98.92%);
     width: 99.87%;
-    height: 59px;
+    height: 45px;
     z-index: 1;
     overflow: hidden;
     transform: matrix(-1, -0.10, -0.08, 1, 0, 0);

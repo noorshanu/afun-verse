@@ -8,15 +8,12 @@
     width: 62%;
 }
 
-.header-h1{
-    
+.header-h1{   
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
-font-size: 75px;
+font-size: 58px;
 line-height: 113%;
-/* identical to box height, or 85px */
-
 text-align: center;
 text-transform: uppercase;
 
@@ -25,8 +22,8 @@ padding-top: 2%;
 padding-bottom: 5%;
 }
 .about-p{
-    font-family: 'Poppins';
-    font-style: normal;
+font-family: 'Poppins';
+font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 155%;
@@ -41,7 +38,7 @@ color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 58px;
     line-height: 113%;
     color: rgb(0, 0, 0);
     -webkit-text-stroke: 1px white;

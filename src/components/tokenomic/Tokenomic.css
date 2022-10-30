@@ -11,7 +11,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 75px;
+  font-size: 58px;
   line-height: 113%;
   /* identical to box height, or 85px */
 
@@ -53,25 +53,25 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 72px;
+  font-size: 58px;
   line-height: 113%;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
   padding-top: 2%;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 }
 .header-ben-span {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 72px;
+  font-size: 58px;
   line-height: 113%;
   color: rgb(0, 0, 0);
   -webkit-text-stroke: 1px white;
 }
 .supply {
-  padding-bottom: 3%;
+  padding-bottom: 2%;
 }
 
 .header-ben-h2 {
@@ -83,7 +83,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 5%;
+  padding-top: 2%;
 }
 .divider {
   width: 23%;
