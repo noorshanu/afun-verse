@@ -1,11 +1,11 @@
 .roadmap {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 0%;
 }
 
 .road-img-2 img {
   height: auto;
-  width: 51%;
+  width: 40%;
   margin-top: 1%;
 }
 .road-img-2 {
@@ -20,7 +20,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 58px;
   line-height: 113%;
   /* identical to box height, or 85px */
 
@@ -31,7 +31,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 58px;
   line-height: 113%;
   color: rgb(0, 0, 0);
   -webkit-text-stroke: 1px white;
@@ -40,7 +40,7 @@
   font-family: "Zen Dots";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 0%;
   /* or 28px */
 
@@ -53,8 +53,8 @@
   font-family: "Zen Dots";
   font-style: normal;
   font-weight: 400;
-  font-size: 26px;
-  line-height: 173%;
+  font-size: 22px;
+  line-height: 104%;
 }
 .road-p {
   padding-left: 8%;
@@ -62,6 +62,6 @@
   position: absolute;
 }
 .road-img-line img {
-  height: 84%;
+  height: 55%;
   margin-top: 100%;
 }

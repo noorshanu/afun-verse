@@ -1,17 +1,17 @@
 .token {
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 
 .img-toko {
   height: auto;
-  width: 50%;
+  width: 40%;
 }
 
 .toko-h2 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 58px;
+  font-size: 55px;
   line-height: 113%;
   /* identical to box height, or 85px */
 
@@ -25,14 +25,14 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 24px;
   line-height: 133.5%;
 }
 .span-toko {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 24px;
 }
 .afun-toko {
   padding-bottom: 10%;
@@ -41,7 +41,7 @@
   font-family: 'Fredoka', sans-serif !important;
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 24px;
   line-height: 89.5%;
   /* or 48px */
 }
@@ -53,7 +53,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 58px;
+  font-size: 55px;
   line-height: 113%;
   text-align: center;
   text-transform: uppercase;
@@ -65,7 +65,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 58px;
+  font-size: 55px;
   line-height: 113%;
   color: rgb(0, 0, 0);
   -webkit-text-stroke: 1px white;
@@ -78,7 +78,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 72px;
+  font-size: 55px;
   line-height: 113%;
   text-align: center;
   text-transform: uppercase;

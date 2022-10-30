@@ -12,14 +12,14 @@
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
-font-size: 58px;
+font-size: 55px;
 line-height: 113%;
 text-align: center;
 text-transform: uppercase;
 
 color: #FFFFFF;
 padding-top: 2%;
-padding-bottom: 5%;
+padding-bottom: 2%;
 }
 .about-p{
 font-family: 'Poppins';
@@ -38,7 +38,7 @@ color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 58px;
+    font-size: 55px;
     line-height: 113%;
     color: rgb(0, 0, 0);
     -webkit-text-stroke: 1px white;
