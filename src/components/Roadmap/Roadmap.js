@@ -1,7 +1,8 @@
 import React from "react";
 import "./Roadmap.css";
 import Pas1 from "../../assets/p1.png";
-
+import Pas2 from "../../assets/p2.png";
+import Pas3 from "../../assets/p3.png";
 function Roadmap() {
   return (
     <section className="roadmap">
@@ -46,7 +47,7 @@ function Roadmap() {
           </div>
           <div className="col-md-6"  data-aos="fade-left">
             <div className="team-box-1">
-              <img src={Pas1} alt="" />
+              <img src={Pas2} alt="" />
               <div className="d-flex align-items-center gap-2">
                 <h2>Q4 </h2>
                 <span>2022</span>
@@ -58,7 +59,7 @@ function Roadmap() {
               <p>Game alpha version launched</p>
             </div>
             <div className="team-box-1">
-              <img src={Pas1} alt="" />
+              <img src={Pas3} alt="" />
               <div className="d-flex align-items-center gap-2">
                 <h2>Q2 </h2>
                 <span>2023</span>
