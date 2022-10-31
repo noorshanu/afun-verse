@@ -26,7 +26,7 @@ function Benifit() {
             <p>• Token Ticker: $Afun</p>
             <p>• Token Standard: ERC20</p>
             <p>• Total Supply: 1,000,000,000</p>
-              <p>• Public Sale Date: December 2023</p>
+          
             
             </div>
           </div>
