@@ -130,7 +130,7 @@ color: #FFFFFF;
     margin-top: -158px;
   }
   .swiper-pagination-bullet{
-    background: #00aeff;
+    background: #00aeff !important;
   }
   @media (max-width:768px){
     .way-line{

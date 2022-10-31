@@ -65,7 +65,7 @@ function Footer() {
               </div>
             </div>
             <div class="col-md-3">
-              <a href="/" className="foot-btn-1">Stake $afunc</a>
+              <a href="/" className="foot-btn-1"> Stake $afunc </a>
               <a href="/" className="foot-btn-2">buy gcoin</a>
             </div>
           </div>
