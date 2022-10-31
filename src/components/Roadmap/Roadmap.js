@@ -21,16 +21,33 @@ function Roadmap() {
         <div className="side-road">&nbsp;</div>
         <div className="side-road2">&nbsp;</div>
         <div className="row margin-auto ">
-          <div className="col-md-6"   data-aos="fade-right">
+          <div className="col-md-6 margin-auto"   data-aos="fade-right">
             <div className="team-box-1">
               <div>
                 <div>
                   <img src={Pas1} alt="" />
                   <div className="d-flex align-items-center gap-2">
-                    <h2>Q1 </h2>
-                    <span>2023</span>
+                    <h2>Q4 </h2>
+                    <span>2022</span>
                   </div>
-                  <p>presale Afun Token </p>
+              
+
+                  <p>Core business plan established</p>
+              <p>$Afun SEED SALE </p>
+              <p>Gameplay teasers</p>
+              <p>Game alpha version launched</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6"  data-aos="fade-left">
+            <div className="team-box-1">
+              <img src={Pas2} alt="" />
+              <div className="d-flex align-items-center gap-2">
+                <h2>Q1 </h2>
+                <span>2023</span>
+              </div>
+              <p>presale Afun Token </p>
                   <p> NFT launch </p>
                   <p>Listing on CMC & CG </p>
                   <p>
@@ -41,22 +58,7 @@ function Roadmap() {
                   </p>
                   <p>Game(Demo version) release</p>
                   <p>Creating market place Afun</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6"  data-aos="fade-left">
-            <div className="team-box-1">
-              <img src={Pas2} alt="" />
-              <div className="d-flex align-items-center gap-2">
-                <h2>Q4 </h2>
-                <span>2022</span>
-              </div>
-
-              <p>Core business plan established</p>
-              <p>$Afun SEED SALE </p>
-              <p>Gameplay teasers</p>
-              <p>Game alpha version launched</p>
+         
             </div>
             <div className="team-box-1">
               <img src={Pas3} alt="" />
