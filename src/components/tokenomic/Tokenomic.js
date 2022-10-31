@@ -21,7 +21,7 @@ function Tokenomic() {
           <div class="col-md-6">
             <div>
               <h2 className="toko-h2">
-                $Ac<span className="head-span">fun</span>c
+                $A<span className="head-span">fun</span>
               </h2>
               <p className="toko-p">
                 <span className="span-toko">AFUNC</span> token is native token
