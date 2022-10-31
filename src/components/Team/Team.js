@@ -29,7 +29,7 @@ function Team() {
         data-aos-anchor-placement="center-bottom"
       >
         <div class="row justify-content-center align-items-center g-2">
-          <div class="col-3">
+          <div class="col-md-3 col-6">
             <div className="team-box">
               <div className="team-mg-box">
                 <img src={Team1} alt="team" />
@@ -40,7 +40,7 @@ function Team() {
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-md-3 col-6">
             <div className="team-box">
               <div className="team-img-box">
                 <img src={Team2} alt="team" />
@@ -51,7 +51,7 @@ function Team() {
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-md-3 col-6">
             <div className="team-box">
               <div className="team-img-box">
                 <img src={Team3} alt="team" />
@@ -62,7 +62,7 @@ function Team() {
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-md-3 col-6">
             <div className="team-box">
               <div className="team-img-box">
                 <img src={Team4} alt="team" />

@@ -3,12 +3,12 @@
     padding-bottom: 2%;
 }
 .play-p p{
-    font-family: 'Zen Dots';
-font-style: normal;
+    font-family: 'Poppins';
+    font-style: normal;
 font-weight: 400;
 font-size: 22px;
 line-height: 155%;
-padding-bottom: 7%;
+padding-bottom: 4%;
 
 text-align: right;
 
@@ -129,7 +129,9 @@ color: #FFFFFF;
     right: 0;
     margin-top: -158px;
   }
-
+  .swiper-pagination-bullet{
+    background: #00aeff;
+  }
   @media (max-width:768px){
     .way-line{
         height: 22px;

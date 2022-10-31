@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import PlayWin from './components/Features/PlayWin'
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./components/About/About";
 import Features from "./components/Features/Features";
@@ -29,6 +29,7 @@ function App() {
       <Hero />
       <About />
       <Features />
+      <PlayWin/>
       <Tokenomic />
       <Benifit />
       <Roadmap/>
