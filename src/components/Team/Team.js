@@ -20,7 +20,7 @@ function Team() {
         data-aos-duration="1500"
       >
         <h1 className="header-h1">
-          TE<span className="head-span">AM</span>
+          TEAM
         </h1>
       </div>
       <div

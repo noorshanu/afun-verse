@@ -13,7 +13,7 @@ function Roadmap() {
         data-aos-duration="1500"
       >
         <h1 className="header-h1">
-          Road<span className="head-span">Map</span>
+          RoadMap
         </h1>
       </div>
 

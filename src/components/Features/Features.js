@@ -35,7 +35,7 @@ function Features() {
       <div class="container justify-content-center text-center" data-aos="fade-up"
      data-aos-anchor-placement="center-center" data-aos-duration="1500">
         <h1 className="header-h1">
-          Featu<span className="head-span">res</span>
+          Features
         </h1>
       </div>
 <div className="side-pur">

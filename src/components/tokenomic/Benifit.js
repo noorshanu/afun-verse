@@ -46,7 +46,7 @@ function Benifit() {
         <div className="head text-center" data-aos="fade-up"
      data-aos-anchor-placement="center-center" data-aos-duration="1500">
           <h1 className="header-ben-h2">
-            Allocat <span className="header-ben-span">ion</span>
+            Allocation
           </h1>
           <img src={Div} alt="" className="divider" />
         </div>
