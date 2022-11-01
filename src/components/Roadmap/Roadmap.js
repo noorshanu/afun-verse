@@ -1,8 +1,6 @@
 import React from "react";
 import "./Roadmap.css";
-import Pas1 from "../../assets/p1.png";
-import Pas2 from "../../assets/p2.png";
-import Pas3 from "../../assets/p3.png";
+
 function Roadmap() {
   return (
     <section className="roadmap">
@@ -21,59 +19,26 @@ function Roadmap() {
         <div className="side-road">&nbsp;</div>
         <div className="side-road2">&nbsp;</div>
         <div className="row margin-auto ">
-          <div className="col-md-6 margin-auto"   data-aos="fade-right">
-            <div className="team-box-1">
-              <div>
-                <div>
-                  <img src={Pas1} alt="" />
-                  <div className="d-flex align-items-center gap-2">
-                    <h2>Q4 </h2>
-                    <span>2022</span>
-                  </div>
-              
-
-                  <p>Core business plan established</p>
-              <p>$Afun SEED SALE </p>
-              <p>Gameplay teasers</p>
-              <p>Game alpha version launched</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6"  data-aos="fade-left">
-            <div className="team-box-1">
-              <img src={Pas2} alt="" />
-              <div className="d-flex align-items-center gap-2">
-                <h2>Q1 </h2>
-                <span>2023</span>
-              </div>
-              <p>presale Afun Token </p>
-                  <p> NFT launch </p>
-                  <p>Listing on CMC & CG </p>
-                  <p>
-                    Conceptualization staking <br /> platform and token
-                  </p>
-                  <p>
-                    Wallet + smart contract <br /> implementation in game
-                  </p>
-                  <p>Game(Demo version) release</p>
-                  <p>Creating market place Afun</p>
-         
-            </div>
-            <div className="team-box-1">
-              <img src={Pas3} alt="" />
-              <div className="d-flex align-items-center gap-2">
-                <h2>Q2 </h2>
-                <span>2023</span>
-              </div>
-              <p>
-              Launch of Staking Platform </p>
-<p>Cross-chain development</p>
-<p>Game mode enhancement</p>
-<p>Listing on Dex and exchanges</p>
-             
-            </div>
-          </div>
+        
+<div className="wrapper">
+ 
+  <div className="timeline">
+    <dl className="timeline--entry">
+      <dt className="timeline--entry__title">Title A</dt>
+      <dd className="timeline--entry__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</dd>
+    </dl>
+    <dl className="timeline--entry">
+      <dt className="timeline--entry__title">Title B</dt>
+      <dd className="timeline--entry__detail"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</dd>
+    </dl>
+    <dl className="timeline--entry">
+      <dt className="timeline--entry__title">Title C</dt>
+      <dd className="timeline--entry__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</dd>
+    </dl>
+   
+ 
+  </div>
+</div>
         </div>
       </div>
     </section>

@@ -1,9 +1,18 @@
 import React from "react";
 import "./Play.css";
-import Box from "../../assets/box2.png";
+import Lottie from 'react-lottie';
+import animationData from '../../assets/game.json';
 import Dollar from "../../assets/elements/dollar.svg";
 
 function PlayWin() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
   return (
     <section className="Play-win">
       <div class="container">
@@ -14,7 +23,11 @@ function PlayWin() {
       <div class="container">
         <div class="row justify-content-center align-items-center g-2">
           <div class="col-md-6 text-center">
-            <img src={Box} alt="" className="play-img" />
+          <Lottie 
+	    options={defaultOptions}
+        height={400}
+        width={400}
+      />
           </div>
           <div class="col-md-6">
             <div className="play-p">
