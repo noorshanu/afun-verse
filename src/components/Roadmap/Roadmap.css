@@ -15,9 +15,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 55px;
-  line-height: 113%;
-  /* identical to box height, or 85px */
-
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
@@ -32,34 +29,33 @@
 }
 
 .side-road{
-  width: 403px;
-  height: 516px;
-  background: rgba(203, 21, 200, 0.779);
-  filter: blur(260px);
-  position: absolute;
-  right: 262px;
-  /* margin-top: -158px; */
-  margin-top: 224px;
+      width: 457px;
+      height: 642px;
+      background: rgba(203, 21, 200, 0.779);
+      filter: blur(260px);
+      position: absolute;
+      right: 262px;
+      margin-top: 224px;
 
 }
 .side-road2{
   z-index: -2;
   background: rgb(0 181 255);
   filter: blur(173px);
-  width: 326px;
+  width: 223px;
   height: 374px;
   position: absolute;
-  left: 169px;
-  margin-top: -28px;
+  left: 327px;
+  margin-top: 233px;
 }
 
 .team-box-1{
-  background: rgba(217, 217, 217, 0.01);
-box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.2);
-border-radius: 12px;
-width: 400px;
-padding: 5%;
-margin-bottom: 4%;
+    background: rgba(217, 217, 217, 0.01);
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    width: 400px;
+    padding: 5%;
+    margin-bottom: 4%;
 }
 .team-box-1 {
   width: 40%;
@@ -73,7 +69,7 @@ margin-bottom: 4%;
 
 
 
-/*- Screen Sizes*/
+
 /*import fonts*/
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 
@@ -88,11 +84,7 @@ margin-bottom: 4%;
 }
 
 
-/* - &:nth-child(1) {
-			 grid-area: entry1;
-		 }
-   - useful timesaver if there is a lengthy list
-*/
+
 .timeline {
   line-height: 1.5em;
   font-size: 14px;
@@ -118,8 +110,8 @@ margin-bottom: 4%;
 }
 .timeline--entry__title {
   color: white;
-  /* background-color: #ec407a; */
-  font-family: "Oswald", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
   font-weight: 300;
   font-size: 1rem;
   padding: 1em;
@@ -133,16 +125,17 @@ margin-bottom: 4%;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   left: -1em;
-  border-right: 10px solid #ec6b96a3;
+  border-right: 10px solid #ff2d7338;
 }
 .timeline--entry__detail {
-  /* background-color: #dddddd; */
+  line-height: 12px;
   padding: 1em;
   margin: 0;
 }
 .timeline--entry:before {
   content: "";
-  font-family: "Oswald", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
   color: #ffffff;
   display: flex;
   align-items: center;
