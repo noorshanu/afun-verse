@@ -26,7 +26,7 @@ function Roadmap() {
                 <dt className="timeline--entry__title">
                   <img src={Ps1} alt="" className="team-box-1" />
                   <div className="d-flex gap-4">
-                    <h2>Q4</h2>2022
+                    <h2>Q4 <span>2022</span></h2>
                   </div>
                 </dt>
                 <dd className="timeline--entry__detail">
@@ -40,7 +40,7 @@ function Roadmap() {
                 <dt className="timeline--entry__title">
                   <img src={Ps2} alt="" className="team-box-1" />
                   <div className="d-flex gap-4">
-                    <h2>Q1</h2>2023
+                    <h2>Q1 <span>2023</span></h2>
                   </div>
                 </dt>
                 <dd className="timeline--entry__detail">
@@ -60,7 +60,7 @@ function Roadmap() {
                 <dt className="timeline--entry__title">
                   <img src={Ps3} alt="" className="team-box-1" />
                   <div className="d-flex gap-4">
-                    <h2>Q2</h2>2023
+                    <h2>Q2 <span>2023</span></h2>
                   </div>
                 </dt>
                 <dd className="timeline--entry__detail">
