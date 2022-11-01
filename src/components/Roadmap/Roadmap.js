@@ -1,5 +1,8 @@
 import React from "react";
 import "./Roadmap.css";
+import Ps1 from '../../assets/p1.png'
+import Ps2 from '../../assets/p2.png'
+import Ps3 from '../../assets/p3.png'
 
 function Roadmap() {
   return (
@@ -24,7 +27,9 @@ function Roadmap() {
  
   <div className="timeline">
     <dl className="timeline--entry">
-      <dt className="timeline--entry__title">Title A</dt>
+      <dt className="timeline--entry__title">
+        <img src={Ps1} alt="" className="team-box-1"/>
+      </dt>
       <dd className="timeline--entry__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</dd>
     </dl>
     <dl className="timeline--entry">
