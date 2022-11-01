@@ -32,7 +32,7 @@
       width: 457px;
       height: 642px;
       background: rgba(203, 21, 200, 0.779);
-      filter: blur(260px);
+      filter: blur(310px);
       position: absolute;
       right: 262px;
       margin-top: 224px;
@@ -41,7 +41,7 @@
 .side-road2{
   z-index: -2;
   background: rgb(0 181 255);
-  filter: blur(173px);
+  filter: blur(200px);
   width: 223px;
   height: 374px;
   position: absolute;
