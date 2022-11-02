@@ -1,5 +1,5 @@
 
-import animationData from '../../assets/club.png';
+
 import "./About.css";
 import React, { Suspense } from "react";
 import { Canvas } from "react-three-fiber";
@@ -39,7 +39,7 @@ function About() {
           <div class="col-md-6 text-center" data-aos="fade-left" data-aos-duration="2000">
         
  
-       <Canvas pixelRatio={[1, 2]} camera={{ position: [-10, 15, 15], fov: 50 }}>
+       <Canvas pixelRatio={[1, 2]} camera={{ position: [-10, 15, 15], fov: 50 }} style={{width:'100%',height:'450px'}}>
       <ambientLight intensity={1} />
       <Suspense fallback={null}>
         <Model />
