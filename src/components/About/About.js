@@ -26,7 +26,7 @@ function About() {
 
       <div class="container">
         <div class="row justify-content-center align-items-center g-2">
-          <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000">
             <p className="about-p">
               The AFUN verse is an ultimate virtual entertainment world in
               metaverse where players can meet their friends and play games,
@@ -36,7 +36,7 @@ function About() {
               and own the room, hotel or land.{" "}
             </p>
           </div>
-          <div class="col-md-6 text-center" data-aos="fade-left" data-aos-duration="2000">
+          <div class="col-md-8 text-center" data-aos="fade-left" data-aos-duration="2000">
         
  
        <Canvas pixelRatio={[1, 2]} camera={{ position: [-10, 15, 15], fov: 50 }} style={{width:'100%',height:'450px'}}>
