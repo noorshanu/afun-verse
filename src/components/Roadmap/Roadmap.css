@@ -192,4 +192,16 @@
 
 .side-road2 {
   width: 88px;}
+
+  .side-pur {
+    width: 150px;
+    height: 200px;}
+    .side-feat {
+      z-index: -2;
+      background: rgb(0 181 255);
+      filter: blur(180px);
+      width: 150px;}
+      .side-play {
+        width: 150px;
+      }
 }
