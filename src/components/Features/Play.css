@@ -6,8 +6,8 @@
     font-family: 'Poppins';
     font-style: normal;
 font-weight: 400;
-font-size: 22px;
-line-height: 155%;
+font-size: 18px;
+    line-height: 130%;
 padding-bottom: 4%;
 
 text-align: right;
@@ -51,9 +51,9 @@ color: #FFFFFF;
     
     z-index: -2;
     background: rgb(0 181 255);
-    filter: blur(135px);
-    width: 188px;
-    height: 183px;
+    filter: blur(180px);
+    width: 250px;
+    height: 200px;
     position: absolute;
     left: 0;
     margin-top: -60px;
@@ -61,11 +61,11 @@ color: #FFFFFF;
 .side-play{
     position: absolute;
     right: 0;
-    width: 241px;
-    height: 208px;
+    width: 250px;
+    height: 200px;
     margin-top: -409px;
     background: rgb(153 58 152);
-    filter: blur(148px);
+    filter: blur(180px);
 }
 .dollar-line{
     width: 100%;
@@ -121,10 +121,10 @@ color: #FFFFFF;
   }
 
   .side-pur{
-    width: 204px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
     background: rgb(203 21 201);
-    filter: blur(128px);
+    filter: blur(180px);
     position: absolute;
     right: 0;
     margin-top: -158px;
