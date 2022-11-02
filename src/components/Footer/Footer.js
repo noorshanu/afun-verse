@@ -14,6 +14,10 @@ function Footer() {
   return (
     <>
       <footer className="footer">
+      <div className="side-feat">&nbsp;</div>
+      <div className="side-pur">
+  &nbsp;
+</div>
         <div class="container">
           <div className="text-center div1">
             <img src={Div} alt="" className="foot-div"/>

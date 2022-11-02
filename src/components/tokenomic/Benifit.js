@@ -17,6 +17,9 @@ function Benifit() {
           <div className="col-md-6 ">
             <div className="container text-center justify-content-center" data-aos="fade-up"
      data-aos-anchor-placement="center-center" data-aos-duration="1500">
+           <div className="side-pur">
+  &nbsp;
+</div>
               <h1 className="header-ben-h1">
                 Token <span className="header-ben-span">Supply</span>
               </h1>
@@ -54,6 +57,7 @@ function Benifit() {
           <img src={Pie} alt="" />
         </div>
       </div>
+ 
     </div>
   );
 }

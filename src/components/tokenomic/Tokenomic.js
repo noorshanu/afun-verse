@@ -11,6 +11,9 @@ function Tokenomic() {
           Tokenomics
         </h1>
       </div>
+      <div className="side-pur">
+  &nbsp;
+</div>
       <div class="container">
         <div class="row justify-content-center align-items-center g-2 afun-toko">
           <div class="col-md-6">

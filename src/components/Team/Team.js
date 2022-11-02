@@ -10,8 +10,12 @@ function Team() {
   return (
     <section className="team">
       <div className="dollar-win">
+      <div className="side-feat">&nbsp;</div>
         <div className="team-line">&nbsp;</div>
         <img src={Dollar} alt="way" className="team-lines" />
+        <div className="side-pur">
+  &nbsp;
+</div>
       </div>
       <div
         class="container justify-content-center text-center"
