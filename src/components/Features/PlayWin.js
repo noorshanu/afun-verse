@@ -1,18 +1,17 @@
-import React from "react";
+
 import "./Play.css";
-import Lottie from 'react-lottie';
-import animationData from '../../assets/game.json';
 import Dollar from "../../assets/elements/dollar.svg";
+import React, { Suspense } from "react";
+import { Canvas } from "react-three-fiber";
+import { OrbitControls, useGLTF } from "@react-three/drei";
+function Model(props) {
+  const { scene } = useGLTF("/play.glb");
+  return <primitive object={scene} />;
+}
+
 
 function PlayWin() {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
+
   return (
     <section className="Play-win">
       <div class="container">
@@ -22,14 +21,16 @@ function PlayWin() {
       </div>
       <div class="container">
         <div class="row justify-content-center align-items-center g-2">
-          <div class="col-md-6 text-center">
-          <Lottie 
-	    options={defaultOptions}
-        height={400}
-        width={400}
-      />
+          <div class="col-md-8 text-center">
+          <Canvas pixelRatio={[2, 2]} camera={{ position: [-10, 15, 15], fov: 60 }} style={{width:'100%',height:'450px'}}>
+      <ambientLight intensity={4} />
+      <Suspense fallback={null}>
+        <Model />
+      </Suspense>
+      <OrbitControls />
+    </Canvas>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div className="play-p">
               <p>
                 Afun-verse is a free metaverse games where players earn tokens
