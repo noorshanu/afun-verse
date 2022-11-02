@@ -22,7 +22,7 @@ function PlayWin() {
       <div class="container">
         <div class="row justify-content-center align-items-center g-2">
           <div class="col-md-7 text-center">
-          <Canvas pixelRatio={[2, 3]} camera={{ position: [-10, 15, 15], fov: 60 }} style={{width:'100%',height:'450px'}}>
+          <Canvas pixelRatio={[1, 3]} camera={{ position: [400, 300, 400], fov:60 }} style={{width:'100%',height:'450px'}}>
       <ambientLight intensity={2} />
       <Suspense fallback={null}>
         <Model />
