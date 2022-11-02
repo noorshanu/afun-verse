@@ -5,7 +5,7 @@ import React, { Suspense } from "react";
 import { Canvas } from "react-three-fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 function Model(props) {
-  const { scene } = useGLTF("../../assets/about/home.glb");
+  const { scene } = useGLTF("/home.glb");
   return <primitive object={scene} />;
 }
 
@@ -38,7 +38,7 @@ function About() {
           </div>
           <div class="col-md-6 text-center" data-aos="fade-left" data-aos-duration="2000">
         
-       <img src={animationData} alt="" className="about-img"/>
+ 
        <Canvas pixelRatio={[1, 2]} camera={{ position: [-10, 15, 15], fov: 50 }}>
       <ambientLight intensity={1} />
       <Suspense fallback={null}>
