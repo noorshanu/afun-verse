@@ -184,3 +184,12 @@
     }
   }
 }
+
+@media (max-width:768px) {
+  .side-road {
+    width: 88px;}
+    
+
+.side-road2 {
+  width: 88px;}
+}
