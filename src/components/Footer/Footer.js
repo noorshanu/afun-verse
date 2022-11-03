@@ -8,6 +8,8 @@ import {
   FaMedium,
   FaTelegramPlane,
   FaYoutube,
+  FaApple,
+  FaGooglePlay
 } from "react-icons/fa";
 
 function Footer() {
@@ -92,20 +94,17 @@ function Footer() {
                 </a>
               </div>
             </div>
-            <div class="col-md-3 col-6 text-center">
+            <div class="col-md-3 col-6">
               <a href="/" className="foot-btn-1">
-                {" "}
-                Stake $afunc{" "}
+               <FaApple/> &nbsp;
+                App Store
               </a>
               <br />
               <br />
               <a href="/" className="foot-btn-2">
-                Buy Gcoin
+                <FaGooglePlay/> &nbsp;Play Store
               </a>
-              <div>
-                <p>Apps</p>
-                <div className="d-flex"></div>
-              </div>
+             
             </div>
           </div>
           <div className="foot-bottom">
