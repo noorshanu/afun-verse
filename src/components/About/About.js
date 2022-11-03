@@ -19,7 +19,7 @@ function About() {
 </div>
       <div class="container justify-content-center text-center "data-aos="fade-up"
      data-aos-anchor-placement="center-center" data-aos-duration="1500">
-        <h1 className="header-h1">
+        <h1 className="header-h1" style={{paddingBottom:'0%'}}>
           About <span className="head-span">Us</span>
         </h1>
       </div>
@@ -27,6 +27,11 @@ function About() {
       <div class="container">
         <div class="row justify-content-center align-items-center g-2">
           <div class="col-md-5" data-aos="fade-right" data-aos-duration="2000">
+            <div className="text-center
+            ">
+            <img src="https://ik.imagekit.io/l4k8brcjb/afun/12.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667473346482" alt="" className="alien"/>
+            </div>
+           
             <p className="about-p">
               The AFUN verse is an ultimate virtual entertainment world in
               metaverse where players can meet their friends and play games,
