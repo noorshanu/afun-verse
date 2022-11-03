@@ -1,9 +1,11 @@
 import React from 'react'
-import {FaTwitter,
-    FaDiscord,
-    FaInstagram,
-    FaTelegramPlane,
-    FaGithub} from 'react-icons/fa'
+import {
+  FaTwitter,
+  FaFacebookSquare,
+  FaMedium,
+  FaTelegramPlane,
+  FaYoutube,
+} from "react-icons/fa";
 
 function Topbar() {
   return (
@@ -32,11 +34,21 @@ function Topbar() {
           
         </div>
         <div className='top-social'>
-        <a href="/"><FaTwitter/></a>
-                        <a href="/"><FaDiscord/></a>
-                        <a href="/"><FaInstagram/></a>
-                        <a href="/"><FaTelegramPlane/></a>
-                        <a href="/"><FaGithub/></a>
+        <a href="https://twitter.com/AFUN_Verse" target="_noor">
+                    <FaTwitter />
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=100087203265007" target='_noor'>
+                    <FaFacebookSquare/>
+                  </a>
+                  <a href="https://afunverse.medium.com/" target='_noor'>
+                    <FaMedium />
+                  </a>
+                  <a href="https://t.me/afun_verse" target='_noor'>
+                    <FaTelegramPlane />
+                  </a>
+                  <a href="https://www.youtube.com/channel/UCIu9OotsCJPmge_1kpo3kgQ">
+                    <FaYoutube />
+                  </a>
 
         </div>
             
