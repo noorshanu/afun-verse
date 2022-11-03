@@ -1,10 +1,6 @@
 import React from "react";
-import Toko1 from "../../assets/elements/toko-1.png";
-import Toko2 from "../../assets/elements/toko-2.png";
-import Div from "../../assets/elements/div.png";
-import Pie from "../../assets/pie.svg";
 import "./Tokenomic.css";
-import Dollar from '../../assets/elements/alloc.png'
+
 
 function Benifit() {
   return (
@@ -12,7 +8,7 @@ function Benifit() {
       <div className="container supply">
         <div className="row">
           <div className="col-md-3  text-end">
-            <img src={Toko1} alt="" className="toko-side-1" />
+            <img src='https://ik.imagekit.io/cforcrypto/afun/elements/toko-1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667504468408' alt="" className="toko-side-1" />
           </div>
           <div className="col-md-6 ">
             <div className="container text-center justify-content-center" data-aos="fade-up"
@@ -34,7 +30,7 @@ function Benifit() {
             </div>
           </div>
           <div className="col-md-3 text-start ">
-            <img src={Toko2} alt="" className="toko-side-1" />
+            <img src='https://ik.imagekit.io/cforcrypto/afun/elements/toko-2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667504468585' alt="" className="toko-side-1" />
           </div>
         </div>
       </div>
@@ -42,7 +38,7 @@ function Benifit() {
       <div className='dollar-shade-1'>&nbsp;</div>
       <div className='dollar-shade-2'>&nbsp;</div>
         
-          <img src={Dollar} alt="way" className="dollar-lines"/>
+          <img src='https://ik.imagekit.io/cforcrypto/afun/elements/alloc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667504465763' alt="way" className="dollar-lines"/>
           <div className='dollar-line'>&nbsp;</div>
         </div>
       <div class="container">
@@ -51,10 +47,10 @@ function Benifit() {
           <h1 className="header-ben-h2">
             Allocation
           </h1>
-          <img src={Div} alt="" className="divider" />
+          <img src='https://ik.imagekit.io/cforcrypto/afun/elements/div.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667504465768' alt="" className="divider" />
         </div>
         <div className="allo-img">
-          <img src={Pie} alt="" />
+          <img src='https://ik.imagekit.io/cforcrypto/afun/pie.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1667505888580'alt="" />
         </div>
       </div>
  

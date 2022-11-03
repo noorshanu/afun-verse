@@ -1,14 +1,17 @@
 import React from "react";
 import "./Hero.css";
 
-import HomeLine from "../../assets/elements/home-line.png";
-
-
 function Hero() {
   return (
     <section className="hero-main">
       <div className="overlay"></div>
-      <video src="https://ik.imagekit.io/cforcrypto/afun/bg.webm?ik-sdk-version=javascript-1.4.3&updatedAt=1667503835809" autoPlay loop muted playsInline/>
+      <video
+        src="https://ik.imagekit.io/cforcrypto/afun/bg.webm?ik-sdk-version=javascript-1.4.3&updatedAt=1667503835809"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
       <div className="container justify-content-center align-items-center content">
         <div className="hero-content d-flex justify-content-center align-items-center">
           <div className="text-end side-img"></div>
@@ -31,7 +34,11 @@ function Hero() {
         </div>
       </div>
       <div className="left-line">&nbsp;</div>
-      <img src={HomeLine} alt="" className="home-line" />
+      <img
+        src="https://ik.imagekit.io/cforcrypto/afun/elements/home-line.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667504466289"
+        alt=""
+        className="home-line"
+      />
     </section>
   );
 }

@@ -1,6 +1,4 @@
-
 import "./Play.css";
-import Dollar from "../../assets/elements/dollar.svg";
 import React, { Suspense } from "react";
 import { Canvas } from "react-three-fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
@@ -60,7 +58,7 @@ function PlayWin() {
       <div className="dollar-win">
         <div className="side-feat">&nbsp;</div>
 
-        <img src={Dollar} alt="way" className="dollar-lines" />
+        <img src='https://ik.imagekit.io/cforcrypto/afun/elements/dollar.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1667504467000' alt="way" className="dollar-lines" />
         <div className="dollar-line">&nbsp;</div>
       </div>
     </section>
