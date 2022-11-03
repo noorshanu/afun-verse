@@ -50,7 +50,7 @@ function Features() {
             clickable: true,
           }}
           autoplay={{
-            delay: 5500,
+            delay: 3500,
             disableOnInteraction: false,
           }}
           modules={[EffectFade, Navigation, Pagination,Autoplay,]}

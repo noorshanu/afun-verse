@@ -23,18 +23,24 @@ function Roadmap() {
           <div className="wrapper">
             <div className="timeline">
               <dl className="timeline--entry">
+              <div>
                 <dt className="timeline--entry__title">
+
                   <img src={Ps1} alt="" className="team-box-1" />
                   <div className="d-flex gap-4">
                     <h2>Q4 <span>2022</span></h2>
                   </div>
                 </dt>
                 <dd className="timeline--entry__detail">
+                 
                   <p>Core business plan established</p>
                   <p>$Afun SEED SALE </p>
                   <p>Gameplay teasers</p>
                   <p>Game alpha version launched</p>
+                
+                
                 </dd>
+                </div>
               </dl>
               <dl className="timeline--entry">
                 <dt className="timeline--entry__title">
