@@ -155,12 +155,9 @@ color: #6C6C6C;
   color: #6C6C6C;
 }
 .ticker-wrap {
-
   width: 100%;
   overflow: hidden;
-
-  background-color: rgba(0, 0, 0, 0.9);
-
+  background: linear-gradient(90deg, #000000 0%, rgb(167 167 167 / 43%) 31.56%, rgb(255 255 255 / 45%) 73.75%, #000000 100%);
   box-sizing: content-box;
 }
 .ticker-wrap .ticker {
@@ -182,7 +179,7 @@ color: #6C6C6C;
   display: inline-block;
   padding: 0 1rem;
   font-size: 16px;
-  color: #ececec;
+  color: #000;
   margin-top: 5px;
 }
 
