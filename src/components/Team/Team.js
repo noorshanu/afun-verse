@@ -9,7 +9,7 @@ import Dollar from "../../assets/elements/team2.png";
 function Team() {
   return (
     <section className="team">
-      <div className="dollar-win">
+      <div className="dollar-wins">
       <div className="side-feat">&nbsp;</div>
         <div className="team-line">&nbsp;</div>
         <img src={Dollar} alt="way" className="team-lines" />

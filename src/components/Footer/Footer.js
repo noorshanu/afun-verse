@@ -4,10 +4,10 @@ import Div from "../../assets/elements/div.png"
 import Logo from "../../assets/foot-logo.png";
 import {
   FaTwitter,
-  FaDiscord,
-  FaInstagram,
+  FaFacebookSquare,
+  FaMedium,
   FaTelegramPlane,
-  FaGithub,
+  FaYoutube,
 } from "react-icons/fa";
 
 function Footer() {
@@ -29,20 +29,20 @@ function Footer() {
 
                 <p className="connect">Connect With The Community</p>
                 <div className="foot-social">
-                  <a href="/">
+                  <a href="https://twitter.com/AFUN_Verse" target="_noor">
                     <FaTwitter />
                   </a>
-                  <a href="/">
-                    <FaDiscord />
+                  <a href="https://www.facebook.com/profile.php?id=100087203265007" target='_noor'>
+                    <FaFacebookSquare/>
                   </a>
-                  <a href="/">
-                    <FaInstagram />
+                  <a href="https://afunverse.medium.com/" target='_noor'>
+                    <FaMedium />
                   </a>
-                  <a href="/">
+                  <a href="https://t.me/afun_verse" target='_noor'>
                     <FaTelegramPlane />
                   </a>
-                  <a href="/">
-                    <FaGithub />
+                  <a href="https://www.youtube.com/channel/UCIu9OotsCJPmge_1kpo3kgQ">
+                    <FaYoutube />
                   </a>
                 </div>
               </div>
@@ -96,6 +96,12 @@ function Footer() {
               <a href="/" className="foot-btn-1"> Stake $afunc </a><br/>
               <br/>
               <a href="/" className="foot-btn-2">Buy Gcoin</a>
+            </div>
+            <div>
+              <h2>Apps</h2>
+              <div className="d-flex">
+
+              </div>
             </div>
           </div>
           <div className="foot-bottom">

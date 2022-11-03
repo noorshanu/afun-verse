@@ -27,7 +27,7 @@ import { EffectFade, Navigation, Pagination,Autoplay } from "swiper";
 function Features() {
   return (
     <section className="text-center">
-       <div className="feat-line">
+       <div className="feat-lines">
         <div className="side-feat">&nbsp;</div>
         <div className="way-line">&nbsp;</div>
         <img src={Way} alt="way" className="way-lines" />
