@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import './Navbar.css'
 import { GiHamburgerMenu } from "react-icons/gi";
-import Logo from '../../assets/Logo.png'
+
 
 function Navbar() {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <nav className='container main-nav'>
     <div className='logo'>   <div className='d-flex foot-logo'>
-            <img src={Logo} alt="" className=''/>
+            <img src='https://ik.imagekit.io/cforcrypto/afun/logo/Logo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667503107957' alt="" className=''/>
            
             </div></div>
     <div className={

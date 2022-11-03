@@ -2,13 +2,13 @@ import React from "react";
 import "./Hero.css";
 
 import HomeLine from "../../assets/elements/home-line.png";
-import videoBg from "../../assets/bg.mp4";
+
 
 function Hero() {
   return (
     <section className="hero-main">
       <div className="overlay"></div>
-      <video src={videoBg} autoPlay loop muted playsInline/>
+      <video src="https://ik.imagekit.io/cforcrypto/afun/bg.webm?ik-sdk-version=javascript-1.4.3&updatedAt=1667503835809" autoPlay loop muted playsInline/>
       <div className="container justify-content-center align-items-center content">
         <div className="hero-content d-flex justify-content-center align-items-center">
           <div className="text-end side-img"></div>

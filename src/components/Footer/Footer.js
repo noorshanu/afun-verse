@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import Div from "../../assets/elements/div.png";
-import Logo from "../../assets/foot-logo.png";
+
 import {
   FaTwitter,
   FaFacebookSquare,
@@ -25,7 +25,7 @@ function Footer() {
           <div class="row justify-content-center align-items-center g-2">
             <div class="col-md-3 col-6">
               <div className="foot-1">
-                <img src={Logo} alt="foot-logos" className="foots-logo" />
+                <img src="https://ik.imagekit.io/cforcrypto/afun/logo/foot-logo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667503107952" alt="foot-logos" className="foots-logo" />
 
                 <p className="connect">Connect With The Community</p>
                 <div className="foot-social">
