@@ -80,7 +80,7 @@ color: #FFFFFF;
     width: 99.6%;
 }
 .dollar-win{
-    padding-top: 4%;
+    padding-top: 2%;
 }
 
 .swiper {
@@ -98,27 +98,7 @@ color: #FFFFFF;
     width: 100%;
   }
   
-  .contents{
-  
-    align-items: center;
-    background: #0000000f;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 92px;
-    width: 100%;
 
-  }
-  .contents h1{
-    background: #0000002e;
-    font-size: 27px;
-    padding: 9%;
-  }
 
   .side-pur{
     width: 250px;
@@ -133,6 +113,19 @@ color: #FFFFFF;
     background: #00aeff !important;
   }
   @media (max-width:768px){
+    .play-p p{
+        font-family: 'Poppins';
+        font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+        line-height: 105%;
+    padding-bottom: 2%;
+    
+    text-align: justify;
+    
+    color: #FFFFFF;
+    
+    }
     .way-line{
         height: 22px;
     }
@@ -151,7 +144,9 @@ color: #FFFFFF;
     }
 
     .contents h1{
-        font-size: 15px;
+        font-size: 14px;
         padding: 5%;
     }
+    .wrapper {
+        margin: 0.125em auto;}
   }

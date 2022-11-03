@@ -129,40 +129,48 @@
 
 
 @media (max-width:768px){
+  .span-toko{
+    font-size: 18px;
+  }
   .toko-h2{
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .toko-p{
-    font-size: 18px;
+    font-size: 16px;
     
   }
   .header-ben-h1{
-    font-size: 32px;
+    font-size: 28px;
   }
   .head-span{
-    font-size: 32px;
+    font-size: 28px;
   }
   .toko-side-1{
     display: none;
   }
   .header-ben-span{
-    font-size: 32px;
+    font-size: 28px;
   }
   .dollar-line {
     width: 100%;
-    height: 45px;
+    height: 15px;
     position: absolute;
-    margin-top: -45px;
+    margin-top: -20px;
   }
   .header-ben-h2{
-    font-size: 32px;
+    font-size: 28px;
   }
   .ben-p{
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 1%;
   }
   .team-line{
-    height: 35px;
+    height: 15px;
   }
+  .team-lines {
+    transform: rotate(-4.07deg);
+    width: 99%;
+    margin-top: -42px;
+}
 }
