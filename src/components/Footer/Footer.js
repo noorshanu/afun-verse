@@ -49,23 +49,47 @@ function Footer() {
             </div>
             <div class="col-md-3 ">
               <div className="foot-link">
+              <a href="/">
               <p>About</p>
+              </a>
+              <a href="/">
               <p>Careers</p>
+              </a>
+              <a href="/">
               <p>Business Contacts</p>
+              </a>
+              <a href="/">
               <p>Community</p>
+              </a>
+              <a href="/">
               <p>Binance Blog</p>
+              </a>
+              <a href="/">
               <p>Term</p>
+              </a>
               </div>
             
             </div>
             <div class="col-md-3">
             <div className="foot-link">
+            <a href="/">
               <p>Privacy</p>
+              </a>
+              <a href="/">
               <p>Risk Warning</p>
+              </a>
+              <a href="/">
               <p>Announcements</p>
+              </a>
+              <a href="/">
               <p>News</p>
+              </a>
+              <a href="/">
               <p>Notices</p>
+              </a>
+              <a href="/">
               <p>Cookie Preferences</p>
+              </a>
               </div>
             </div>
             <div class="col-md-3 text-center">
