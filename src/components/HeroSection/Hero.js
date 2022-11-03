@@ -8,7 +8,7 @@ function Hero() {
   return (
     <section className="hero-main">
       <div className="overlay"></div>
-      <video src={videoBg} autoPlay loop muted />
+      <video src={videoBg} autoPlay loop muted playsInline/>
       <div className="container justify-content-center align-items-center content">
         <div className="hero-content d-flex justify-content-center align-items-center">
           <div className="text-end side-img"></div>
