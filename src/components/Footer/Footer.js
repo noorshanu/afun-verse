@@ -50,6 +50,18 @@ function Footer() {
                 </div>
               </div>
             </div>
+            <div class="col-md-3 col-6 text-center">
+              <a href="/" className="foot-btn-1">
+               <FaApple/> &nbsp;
+                App Store
+              </a>
+              <br />
+              <br />
+              <a href="/" className="foot-btn-2">
+                <FaGooglePlay/> &nbsp;Play Store
+              </a>
+             
+            </div>
             <div class="col-md-3  col-6">
               <div className="foot-link">
                 <a href="/">
@@ -94,18 +106,7 @@ function Footer() {
                 </a>
               </div>
             </div>
-            <div class="col-md-3 col-6">
-              <a href="/" className="foot-btn-1">
-               <FaApple/> &nbsp;
-                App Store
-              </a>
-              <br />
-              <br />
-              <a href="/" className="foot-btn-2">
-                <FaGooglePlay/> &nbsp;Play Store
-              </a>
-             
-            </div>
+     
           </div>
           <div className="foot-bottom">
             <hr />
