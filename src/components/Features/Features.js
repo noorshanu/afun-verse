@@ -12,7 +12,7 @@ import { EffectFade, Navigation, Pagination, Autoplay } from "swiper";
 
 function Features() {
   return (
-    <section className="text-center">
+    <section className="text-center" id="feature">
       <div className="feat-lines">
         <div className="side-feat">&nbsp;</div>
         <div className="way-line">&nbsp;</div>

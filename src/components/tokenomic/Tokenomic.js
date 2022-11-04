@@ -4,7 +4,7 @@ import "./Tokenomic.css";
 
 function Tokenomic() {
   return (
-    <section className="token">
+    <section className="token" id="toko">
       <div className="container text-center justify-content-center" data-aos="fade-up"
      data-aos-anchor-placement="center-center" data-aos-duration="1500">
         <h1 className="header-h1">

@@ -17,9 +17,9 @@ function Navbar() {
     <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#feature">Features</a></li>
-        <li><a href="/">Gameplay</a></li>
+        <li><a href="#game">Gameplay</a></li>
         <li><a href="#toko">Tokenomics</a></li>
-        <li><a href="#nft">NFTs</a></li>
+        {/* <li><a href="#nft">NFTs</a></li> */}
         <li><a href="#road">Roadmap</a></li>
         <li><a href="#team">team</a></li>
     </ul>

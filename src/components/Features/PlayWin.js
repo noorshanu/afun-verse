@@ -11,7 +11,7 @@ function Model(props) {
 function PlayWin() {
 
   return (
-    <section className="Play-win">
+    <section className="Play-win" id="game">
       <div class="container">
         <h1 className="header-h1" data-aos="fade-up"
      data-aos-anchor-placement="center-center" data-aos-duration="1500">

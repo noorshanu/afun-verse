@@ -10,7 +10,7 @@ function Model(props) {
 function About() {
 
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="side-feat">&nbsp;</div>
       <div className="side-pur">
   &nbsp;

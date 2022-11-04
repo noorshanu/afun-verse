@@ -6,7 +6,7 @@ import Ps3 from "../../assets/p3.png";
 
 function Roadmap() {
   return (
-    <section className="roadmap">
+    <section className="roadmap" id="road">
       <div
         class="container justify-content-center text-center"
         data-aos="fade-up"

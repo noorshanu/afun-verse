@@ -5,7 +5,7 @@ import "./Team.css";
 
 function Team() {
   return (
-    <section className="team">
+    <section className="team" id="team">
       <div className="dollar-wins">
       <div className="side-feat">&nbsp;</div>
         <div className="team-line">&nbsp;</div>
