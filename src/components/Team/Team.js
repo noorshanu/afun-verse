@@ -26,8 +26,7 @@ function Team() {
       </div>
       <div
         class="container justify-content-center text-center margin-auto"
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom"
+        
       >
         <div class="row justify-content-center align-items-center g-2">
           <div class="col-md-3 col-6">

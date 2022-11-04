@@ -20,8 +20,8 @@ function PlayWin() {
       </div>
       <div class="container">
         <div class="row justify-content-center align-items-center g-2">
-          <div class="col-md-7 text-center" data-aos="fade-right" data-aos-duration="1500">
-          <Canvas pixelRatio={[1, 3]} camera={{ position: [400, 300, 400], fov:60 }} style={{width:'100%',height:'450px'}}>
+          <div class="col-md-7 text-center" >
+          <Canvas pixelRatio={[1, 2]} camera={{ position: [400, 300, 400], fov:60 }} style={{width:'100%',height:'350px'}}>
       <ambientLight intensity={2} />
       <Suspense fallback={null}>
         <Model />
@@ -29,7 +29,7 @@ function PlayWin() {
       <OrbitControls />
     </Canvas>
           </div>
-          <div class="col-md-5" data-aos="fade-left" data-aos-duration="1500">
+          <div class="col-md-5" >
             <div className="play-p">
               <p>
                 Afun-verse is a free metaverse games where players earn tokens
