@@ -6,11 +6,12 @@ function Hero() {
     <section className="hero-main">
       <div className="overlay"></div>
       <video
+       playsInline
+       loop
+       autoPlay
+       muted
         src="https://ik.imagekit.io/cforcrypto/afun/bg.webm?ik-sdk-version=javascript-1.4.3&updatedAt=1667503835809"
-        autoPlay
-        loop
-        muted
-        playsInline
+           
       />
       <div className="container justify-content-center align-items-center content">
         <div className="hero-content d-flex justify-content-center align-items-center">
