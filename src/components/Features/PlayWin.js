@@ -1,11 +1,11 @@
 import "./Play.css";
-// import React, { Suspense } from "react";
-// import { Canvas } from "react-three-fiber";
-// import { OrbitControls, useGLTF } from "@react-three/drei";
-// function Model(props) {
-//   const { scene } = useGLTF("https://ik.imagekit.io/cforcrypto/afun/play_final.glb?ik-sdk-version=javascript-1.4.3&updatedAt=1667541174336");
-//   return <primitive object={scene} />;
-// }
+import React, { Suspense } from "react";
+import { Canvas } from "react-three-fiber";
+import { OrbitControls, useGLTF } from "@react-three/drei";
+function Model(props) {
+  const { scene } = useGLTF("https://ik.imagekit.io/cforcrypto/afun/play_final.glb?ik-sdk-version=javascript-1.4.3&updatedAt=1667541174336");
+  return <primitive object={scene} />;
+}
 
 
 function PlayWin() {
@@ -20,13 +20,13 @@ function PlayWin() {
       <div class="container">
         <div class="row justify-content-center align-items-center g-2">
           <div class="col-md-7 text-center" >
-          {/* <Canvas pixelRatio={[1, 2]} camera={{ position: [400, 300, 400], fov:60 }} style={{width:'100%',height:'350px'}}>
+          <Canvas pixelRatio={[1, 2]} camera={{ position: [400, 300, 400], fov:60 }} style={{width:'100%',height:'350px'}}>
       <ambientLight intensity={2} />
       <Suspense fallback={null}>
         <Model />
       </Suspense>
       <OrbitControls />
-    </Canvas> */}
+    </Canvas>
           </div>
           <div class="col-md-5" >
             <div className="play-p">

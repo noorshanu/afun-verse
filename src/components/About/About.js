@@ -1,11 +1,11 @@
 import "./About.css";
-// import React, { Suspense } from "react";
-// import { Canvas } from "react-three-fiber";
-// import { OrbitControls, useGLTF } from "@react-three/drei";
-// function Model(props) {
-//   const { scene } = useGLTF("https://ik.imagekit.io/cforcrypto/afun/home.glb?ik-sdk-version=javascript-1.4.3&updatedAt=1667506435131");
-//   return <primitive object={scene} />;
-// }
+import React, { Suspense } from "react";
+import { Canvas } from "react-three-fiber";
+import { OrbitControls, useGLTF } from "@react-three/drei";
+function Model(props) {
+  const { scene } = useGLTF("https://ik.imagekit.io/cforcrypto/afun/home.glb?ik-sdk-version=javascript-1.4.3&updatedAt=1667506435131");
+  return <primitive object={scene} />;
+}
 
 function About() {
 
@@ -42,13 +42,13 @@ function About() {
           <div class="col-md-7 text-center">
         
  
-       {/* <Canvas pixelRatio={[1, 2]} camera={{ position: [-15, 10, 40], fov: 60 }} style={{width:'100%',height:'450px'}}>
+       <Canvas pixelRatio={[1, 2]} camera={{ position: [-15, 10, 40], fov: 60 }} style={{width:'100%',height:'450px'}}>
       <ambientLight intensity={5} />
       <Suspense fallback={null}>
         <Model />
       </Suspense>
       <OrbitControls />
-    </Canvas> */}
+    </Canvas>
           </div>
         </div>
       </div>
