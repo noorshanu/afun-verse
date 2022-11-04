@@ -24,7 +24,7 @@ function About() {
 
       <div class="container">
         <div class="row justify-content-center align-items-center g-2">
-          <div class="col-md-5" data-aos="fade-right" data-aos-duration="2000">
+          <div class="col-md-5" >
             <div className="text-center
             ">
             <img src="https://ik.imagekit.io/l4k8brcjb/afun/12.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667473346482" alt="" className="alien"/>
