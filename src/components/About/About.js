@@ -39,7 +39,7 @@ function About() {
               and own the room, hotel or land.{" "}
             </p>
           </div>
-          <div class="col-md-7 text-center" data-aos="fade-left" data-aos-duration="2000">
+          <div class="col-md-7 text-center" >
         
  
        <Canvas pixelRatio={[1, 2]} camera={{ position: [-15, 10, 40], fov: 60 }} style={{width:'100%',height:'450px'}}>
