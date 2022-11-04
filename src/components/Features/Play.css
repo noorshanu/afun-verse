@@ -112,7 +112,18 @@ color: #FFFFFF;
   .swiper-pagination-bullet{
     background: #00aeff !important;
   }
+  .play-mob{
+    display: none;
+  }
   @media (max-width:768px){
+    .play{
+        display: none;
+    }
+    .play-mob{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
     .play-p p{
         font-family: 'Poppins';
         font-style: normal;

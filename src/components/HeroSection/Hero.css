@@ -118,6 +118,12 @@ video {
         top: 14%;
         
     }
+    video{
+        background-image: url(https://ik.imagekit.io/cforcrypto/afun/1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667572536150);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     .hero-h1 {
         font-size: 30px;
         line-height: 102%;}

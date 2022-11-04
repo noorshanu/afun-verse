@@ -40,9 +40,10 @@ function About() {
             </p>
           </div>
           <div class="col-md-7 text-center">
+            <img src="https://ik.imagekit.io/cforcrypto/afun/ios_about_us.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667555932571" alt="" className="play-mob"/>
         
  
-       <Canvas pixelRatio={[1, 2]} camera={{ position: [-15, 10, 40], fov: 60 }} style={{width:'100%',height:'450px'}}>
+       <Canvas pixelRatio={[1, 2]} camera={{ position: [-15, 10, 40], fov: 60 }} style={{width:'100%',height:'450px'}} className='play'>
       <ambientLight intensity={5} />
       <Suspense fallback={null}>
         <Model />
