@@ -45,14 +45,15 @@ function PlayWin() {
                 provide deflationary pressure on $Gcoin.
               </p>
             </div>
-            <div className="text-end">
-            <a href="/" className="foot-btn-2">Play</a>
-            </div>
+           
         
             <div className="feat-line">
               <div className="side-play">&nbsp;</div>
             </div>
           </div>
+          <div className="text-center">
+            <a href="/" className="play-btn">Play</a>
+            </div>
         </div>
       </div>
       <div className="dollar-win">
