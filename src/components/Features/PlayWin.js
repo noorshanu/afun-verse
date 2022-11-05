@@ -51,7 +51,7 @@ function PlayWin() {
               <div className="side-play">&nbsp;</div>
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-center pt-10">
             <a href="/" className="play-btn">Play</a>
             </div>
         </div>
