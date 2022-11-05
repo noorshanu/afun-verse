@@ -47,56 +47,56 @@ function Features() {
         >
           <SwiperSlide>
             <img
-              src="https://ik.imagekit.io/cforcrypto/afun/slider/game.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667505086966"
+              src="https://ik.imagekit.io/cforcrypto/afun/slider/gaming.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667656087935"
               alt="game"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="https://ik.imagekit.io/cforcrypto/afun/slider/music.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667505086787"
+              src="https://ik.imagekit.io/cforcrypto/afun/slider/music.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667656088386"
               alt="music"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="https://ik.imagekit.io/cforcrypto/afun/slider/art.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667505086697"
+              src="https://ik.imagekit.io/cforcrypto/afun/slider/art_gallery.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667656088039"
               alt="art"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="https://ik.imagekit.io/cforcrypto/afun/slider/fashion.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667505087082"
+              src="https://ik.imagekit.io/cforcrypto/afun/slider/fashion.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667656087494"
               alt="fashion"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="https://ik.imagekit.io/cforcrypto/afun/slider/cars.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667505086477"
+              src="https://ik.imagekit.io/cforcrypto/afun/slider/cars.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667656087129"
               alt="car"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="https://ik.imagekit.io/cforcrypto/afun/slider/idols.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667505087104"
+              src="https://ik.imagekit.io/cforcrypto/afun/slider/Idols.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667656088274"
               alt="idols"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="https://ik.imagekit.io/cforcrypto/afun/slider/resturants.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667505086448"
+              src="https://ik.imagekit.io/cforcrypto/afun/slider/resturants.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667656087777"
               alt="resturant"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="https://ik.imagekit.io/cforcrypto/afun/slider/Sports.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667505086998"
+              src="https://ik.imagekit.io/cforcrypto/afun/slider/Sports.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667656088577"
               alt="sports"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="https://ik.imagekit.io/cforcrypto/afun/slider/tam.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667505086931"
-              alt=""
+              src="https://ik.imagekit.io/cforcrypto/afun/slider/virtual_babies.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667656088454"
+              alt="tam"
             />
           </SwiperSlide>
         </Swiper>
