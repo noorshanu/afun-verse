@@ -201,7 +201,8 @@ display: none;}
 
   .side-pur {
     width: 150px;
-    height: 200px;}
+    height: 200px;
+  display: none;}
     .side-feat {
       z-index: -2;
       background: rgb(0 181 255);
@@ -209,5 +210,8 @@ display: none;}
       width: 150px;}
       .side-play {
         width: 150px;
+      }
+      .dollar-shade-2{
+        display: none;
       }
 }
