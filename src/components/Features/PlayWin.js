@@ -20,8 +20,8 @@ function PlayWin() {
       <div class="container">
         <div class="row justify-content-center align-items-center g-2">
           <div class="col-md-7 text-center" >
-            {/* <img src="https://ik.imagekit.io/cforcrypto/afun/ios_play2earn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667556024636" alt="" className="play-mob"/> */}
-          <Canvas pixelRatio={[1, 2]} camera={{ position: [400, 300, 400], fov:60 }} style={{width:'100%',height:'350px'}} >
+            <img src="https://ik.imagekit.io/cforcrypto/afun/ios_play2earn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667556024636" alt="" className="play-mob"/>
+          <Canvas pixelRatio={[1, 2]} camera={{ position: [400, 300, 400], fov:60 }} style={{width:'100%',height:'350px'}} className="play">
       <ambientLight intensity={2} />
       <Suspense fallback={null}>
         <Model />
