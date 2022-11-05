@@ -18,12 +18,12 @@ function Footer() {
       <footer className="footer">
         <div className="side-feat">&nbsp;</div>
         <div className="side-pur">&nbsp;</div>
-        <div class="container">
+        <div className="container">
           <div className="text-center div1">
             <img src={Div} alt="" className="foot-div" />
           </div>
-          <div class="row justify-content-center align-items-center g-2">
-            <div class="col-md-3 col-6">
+          <div className="row justify-content-center align-items-center g-2">
+            <div className="col-md-3 col-6">
               <div className="foot-1">
                 <img src="https://ik.imagekit.io/cforcrypto/afun/logo/foot-logo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667503107952" alt="foot-logos" className="foots-logo" />
 
@@ -50,7 +50,7 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div class="col-md-3 col-6 text-center">
+            <div className="col-md-3 col-6 text-center">
               <a href="/" className="foot-btn-1">
                <FaApple/> &nbsp;
                 App Store
@@ -62,7 +62,7 @@ function Footer() {
               </a>
              
             </div>
-            <div class="col-md-3  col-6">
+            <div className="col-md-3  col-6">
               <div className="foot-link">
                 <a href="/">
                   <p>About</p>
@@ -84,7 +84,7 @@ function Footer() {
                 </a>
               </div>
             </div>
-            <div class="col-md-3 col-6">
+            <div className="col-md-3 col-6">
               <div className="foot-link">
                 <a href="/">
                   <p>Privacy</p>

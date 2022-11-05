@@ -23,7 +23,7 @@ function Features() {
         />
       </div>
       <div
-        class="container justify-content-center text-center"
+        className="container justify-content-center text-center"
         data-aos="fade-up"
         data-aos-anchor-placement="center-center"
         data-aos-duration="1500"

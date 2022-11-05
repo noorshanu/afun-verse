@@ -12,14 +12,14 @@ function PlayWin() {
 
   return (
     <section className="Play-win" id="game">
-      <div class="container">
+      <div className="container">
         <h1 className="header-h1" >
           Play - 2 - <span className="head-span">Earn</span>{" "}
         </h1>
       </div>
-      <div class="container">
-        <div class="row justify-content-center align-items-center g-2">
-          <div class="col-md-7 text-center" >
+      <div className="container">
+        <div className="row justify-content-center align-items-center g-2">
+          <div className="col-md-7 text-center" >
             <img src="https://ik.imagekit.io/cforcrypto/afun/ios_play2earn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667556024636" alt="" className="play-mob"/>
           <Canvas pixelRatio={[1, 2]} camera={{ position: [400, 300, 400], fov:60 }} style={{width:'100%',height:'350px'}} className="play">
       <ambientLight intensity={2} />
@@ -29,7 +29,7 @@ function PlayWin() {
       <OrbitControls />
     </Canvas>
           </div>
-          <div class="col-md-5" >
+          <div className="col-md-5" >
             <div className="play-p">
               <p>
                 Afun-verse is a free metaverse games where players earn tokens

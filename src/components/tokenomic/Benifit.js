@@ -41,7 +41,7 @@ function Benifit() {
           <img src='https://ik.imagekit.io/cforcrypto/afun/elements/alloc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667504465763' alt="way" className="dollar-lines"/>
           <div className='dollar-line'>&nbsp;</div>
         </div>
-      <div class="container">
+      <div className="container">
         <div className="head text-center" data-aos="fade-up"
      data-aos-anchor-placement="center-center" data-aos-duration="1500">
           <h1 className="header-ben-h2">

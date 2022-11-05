@@ -14,14 +14,14 @@ function Tokenomic() {
       <div className="side-pur">
   &nbsp;
 </div>
-      <div class="container">
-        <div class="row justify-content-center align-items-center g-2 afun-toko">
-          <div class="col-md-6">
+      <div className="container">
+        <div className="row justify-content-center align-items-center g-2 afun-toko">
+          <div className="col-md-6">
             <div className="text-center">
               <img src='https://ik.imagekit.io/cforcrypto/afun/coin.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667503840738' alt="" className="img-toko" />
             </div>
           </div>
-          <div class="col-md-6">
+          <div className="col-md-6">
             <div>
               <h2 className="toko-h2">
                 $A<span className="head-span">fun</span>

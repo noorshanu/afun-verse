@@ -15,16 +15,16 @@ function About() {
       <div className="side-pur">
   &nbsp;
 </div>
-      <div class="container justify-content-center text-center "data-aos="fade-up"
+      <div className="container justify-content-center text-center "data-aos="fade-up"
      data-aos-anchor-placement="center-center" data-aos-duration="1500">
         <h1 className="header-h1" style={{paddingBottom:'0%'}}>
           About <span className="head-span">Us</span>
         </h1>
       </div>
 
-      <div class="container">
-        <div class="row justify-content-center align-items-center g-2">
-          <div class="col-md-5" >
+      <div className="container">
+        <div className="row justify-content-center align-items-center g-2">
+          <div className="col-md-5" >
             <div className="text-center
             ">
             <img src="https://ik.imagekit.io/l4k8brcjb/afun/12.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667473346482" alt="" className="alien"/>
@@ -39,7 +39,7 @@ function About() {
               and own the room, hotel or land.{" "}
             </p>
           </div>
-          <div class="col-md-7 text-center">
+          <div className="col-md-7 text-center">
             {/* <img src="https://ik.imagekit.io/cforcrypto/afun/ios_about_us.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667555932571" alt="" className="play-mob"/> */}
         
             {/* className='play' */}
