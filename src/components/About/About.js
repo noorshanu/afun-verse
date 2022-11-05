@@ -3,7 +3,7 @@ import React, { Suspense } from "react";
 import { Canvas } from "react-three-fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 function Model(props) {
-  const { scene } = useGLTF("https://ik.imagekit.io/cforcrypto/afun/home.glb?ik-sdk-version=javascript-1.4.3&updatedAt=1667506435131");
+  const { scene } = useGLTF("https://ik.imagekit.io/cforcrypto/afun/about_us.glb?ik-sdk-version=javascript-1.4.3&updatedAt=1667636638382");
   return <primitive object={scene} />;
 }
 
