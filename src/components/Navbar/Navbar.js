@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './Navbar.css'
 import { GiHamburgerMenu } from "react-icons/gi";
+import { NavLink } from 'react-router-dom'
 
 
 function Navbar() {
@@ -8,8 +9,10 @@ function Navbar() {
   return (
     <nav className='container main-nav'>
     <div className='logo'>   <div className='d-flex foot-logo'>
+      <NavLink to='/'>
+
             <img src='https://ik.imagekit.io/cforcrypto/afun/logo/Logo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667503107957' alt="" className=''/>
-           
+            </NavLink>
             </div></div>
     <div className={
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import Div from "../../assets/elements/div.png";
-
+import { NavLink } from 'react-router-dom'
 import {
   FaTwitter,
   FaFacebookSquare,
@@ -64,46 +64,38 @@ function Footer() {
             </div>
             <div className="col-md-3  col-6">
               <div className="foot-link">
-                <a href="/">
+                <a href="#about">
                   <p>About</p>
                 </a>
                 <a href="/">
                   <p>Careers</p>
                 </a>
-                <a href="/">
-                  <p>Business Contacts</p>
-                </a>
+             
                 <a href="/">
                   <p>Community</p>
                 </a>
-                <a href="/">
-                  <p>Binance Blog</p>
-                </a>
-                <a href="/">
-                  <p>Term</p>
-                </a>
+             
+                <NavLink to="/terms" target='_terms'>
+                  <p>Terms</p>
+                </NavLink>
               </div>
             </div>
             <div className="col-md-3 col-6">
               <div className="foot-link">
-                <a href="/">
+                <NavLink to="/privacy-policy" target='_privacy'>
                   <p>Privacy</p>
-                </a>
-                <a href="/">
+                </NavLink>
+                <NavLink to="/risk-warning" target='_risk'>
                   <p>Risk Warning</p>
-                </a>
+                </NavLink>
                 <a href="/">
                   <p>Announcements</p>
                 </a>
-                <a href="/">
-                  <p>News</p>
-                </a>
-                <a href="/">
-                  <p>Notices</p>
-                </a>
-                <a href="/">
+              
+              
+                <NavLink to="/privacy-policy" target='_privacy'>
                   <p>Cookie Preferences</p>
-                </a>
+                </NavLink>
               </div>
             </div>
      
