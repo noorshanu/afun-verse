@@ -52,7 +52,7 @@ function PlayWin() {
             </div>
           </div>
           <div className="text-center pt-10">
-            <a href="/" className="play-btn">Play</a>
+            <a href="http://metaverse.afunverse.com/" target='_noor' className="play-btn">Enter Into Metaverse</a>
             </div>
         </div>
       </div>
