@@ -10,7 +10,7 @@ li {
 
 .logo img{
     height: 68px;
-    width: 118px;
+    width: auto;
 }
 a:hover {
   color: #8f0194;

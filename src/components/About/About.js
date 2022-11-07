@@ -27,7 +27,7 @@ function About() {
           <div className="col-md-5" >
             <div className="text-center
             ">
-            <img src="https://ik.imagekit.io/l4k8brcjb/afun/12.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667473346482" alt="" className="alien"/>
+            <img src="https://ik.imagekit.io/cforcrypto/afun/logo/afun-logo2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667825765893" alt="" className="alien"/>
             </div>
            
             <p className="about-p">

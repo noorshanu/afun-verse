@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import Div from "../../assets/elements/div.png";
-import { NavLink } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 import {
   FaTwitter,
   FaFacebookSquare,
@@ -9,7 +9,7 @@ import {
   FaTelegramPlane,
   FaYoutube,
   FaApple,
-  FaGooglePlay
+  FaGooglePlay,
 } from "react-icons/fa";
 
 function Footer() {
@@ -25,7 +25,11 @@ function Footer() {
           <div className="row justify-content-center align-items-center g-2">
             <div className="col-md-3 col-6">
               <div className="foot-1">
-                <img src="https://ik.imagekit.io/cforcrypto/afun/logo/foot-logo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667503107952" alt="foot-logos" className="foots-logo" />
+                <img
+                  src="https://ik.imagekit.io/cforcrypto/afun/logo/afun-logo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667825765874"
+                  alt="foot-logos"
+                  className="foots-logo"
+                />
 
                 <p className="connect">Connect With The Community</p>
                 <div className="foot-social">
@@ -52,15 +56,13 @@ function Footer() {
             </div>
             <div className="col-md-3 col-6 text-center">
               <a href="/" className="foot-btn-1">
-               <FaApple/> &nbsp;
-                App Store
+                <FaApple /> &nbsp; App Store
               </a>
               <br />
               <br />
               <a href="/" className="foot-btn-2">
-                <FaGooglePlay/> &nbsp;Play Store
+                <FaGooglePlay /> &nbsp;Play Store
               </a>
-             
             </div>
             <div className="col-md-3  col-6">
               <div className="foot-link">
@@ -70,35 +72,33 @@ function Footer() {
                 <a href="/">
                   <p>Careers</p>
                 </a>
-             
+
                 <a href="/">
                   <p>Community</p>
                 </a>
-             
-                <NavLink to="/terms" target='_terms'>
+
+                <NavLink to="/terms" target="_terms">
                   <p>Terms</p>
                 </NavLink>
               </div>
             </div>
             <div className="col-md-3 col-6">
               <div className="foot-link">
-                <NavLink to="/privacy-policy" target='_privacy'>
+                <NavLink to="/privacy-policy" target="_privacy">
                   <p>Privacy</p>
                 </NavLink>
-                <NavLink to="/risk-warning" target='_risk'>
+                <NavLink to="/risk-warning" target="_risk">
                   <p>Risk Warning</p>
                 </NavLink>
                 <a href="/">
                   <p>Announcements</p>
                 </a>
-              
-              
-                <NavLink to="/privacy-policy" target='_privacy'>
+
+                <NavLink to="/privacy-policy" target="_privacy">
                   <p>Cookie Preferences</p>
                 </NavLink>
               </div>
             </div>
-     
           </div>
           <div className="foot-bottom">
             <hr />
