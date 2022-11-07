@@ -23,7 +23,7 @@ function Hero() {
             <p className="hero-p">Play-2-earn</p>
             <div className="hero-main-btn">
               <span className="btn-hero-1">
-                <a href="/">Stake $afunc</a>
+                <a href="http://metaverse.afunverse.com/" target='_noor'>Enter into Metaverse</a>
               </span>
               <span className="btn-hero-2">
                 <a href="/">buy gcoin</a>
